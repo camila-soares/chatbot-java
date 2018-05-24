@@ -17,7 +17,7 @@ var mmChat = {
         } else {
             if (this._retry !== 0)
                 console.log("Reconnecting to socket");
-            var url = "ws://localhost:9000/ws";
+            var url = "ws://gateway.watsonplatform.net/assistant/api/v1/workspaces/42893f0a-6c0e-4b66-8e30-525058a4322e/message/ws";
 
                 console.log("connecting to " + url);
             this._websocket = new WebSocket(url);

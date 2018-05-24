@@ -4,8 +4,7 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta http-equiv="Content-Security-Policy" content="connect-src http://localhost:9000; default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+            <meta http-equiv="Content-Security-Policy" content="connect-src 'self' * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self'; script-src 'self' 'unsafe-inline'; media-src *;">
             <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
             <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
             <title>ChatBot</title>
@@ -21,8 +20,6 @@
                 <button type="submit">Enviar</button>
             </form>
         </div>
-
-
         <script type='text/javascript' src='@routes.Assets.versioned("javascripts/components.js")'></script>
         <script type='text/javascript' src='@routes.Assets.versioned("javascripts/app.js")'></script>
     </body>

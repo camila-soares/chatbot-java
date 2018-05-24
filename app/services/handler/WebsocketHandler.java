@@ -41,7 +41,6 @@ public class WebsocketHandler extends UntypedAbstractActor {
             Message message = Json.fromJson((JsonNode) obj, Message.class);
             switch (message.getAction()) {
                 case HELLO:
-                    checkUserContext((ObjectNode) obj);
                     break;
                 case PING:
                     handlePing();
@@ -58,30 +57,6 @@ public class WebsocketHandler extends UntypedAbstractActor {
             unhandled(obj);
     }
 
-    private void checkUserContext(ObjectNode message) {
-        try {
-            String subject;
-            boolean isNewToken = message.path("token").isMissingNode();
-            if (isNewToken) {
-                Claims claims = authService.validateSecret(secret);
-                subject = claims.getSubject();
-                ObjectNode configNode = Json.newObject();
-                configNode.put("action", "CONFIG");
-                configNode.put("token", subject);
-                out.tell(configNode, getSelf());
-                message.put("token", subject);
-            } else {
-                subject = message.get("token").textValue();
-            }
-
-            if (isNewToken)
-                messageHandler.tell(message, getSelf());
-            Logger.debug("{} Checking user context: {}", LOG_TAG, subject);
-        } catch (JwtException e) {
-            Logger.error("{} {}", LOG_TAG, e.getMessage());
-            actorSystem.stop(out);
-        }
-    }
 
     private void handlePing() {
         Message msg = new Message();

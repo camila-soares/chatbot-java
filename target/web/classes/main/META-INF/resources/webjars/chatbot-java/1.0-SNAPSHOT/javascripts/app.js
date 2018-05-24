@@ -17,8 +17,7 @@ var mmChat = {
         } else {
             if (this._retry !== 0)
                 console.log("Reconnecting to socket");
-            var url = "ws://localhost:9000";
-
+            var url = "ws://localhost:9000/ws";
 
                 console.log("connecting to " + url);
             this._websocket = new WebSocket(url);

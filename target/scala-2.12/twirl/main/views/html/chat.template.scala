@@ -35,10 +35,9 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta http-equiv="Content-Security-Policy" content="connect-src http://localhost:9000; default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
-            <link rel="stylesheet" media="screen" href=""""),_display_(/*9.58*/routes/*9.64*/.Assets.versioned("stylesheets/main.css")),format.raw/*9.105*/("""">
-            <link rel="shortcut icon" type="image/png" href=""""),_display_(/*10.63*/routes/*10.69*/.Assets.versioned("images/favicon.png")),format.raw/*10.108*/("""">
+            <meta http-equiv="Content-Security-Policy" content="connect-src 'self' * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self'; script-src 'self' 'unsafe-inline'; media-src *;">
+            <link rel="stylesheet" media="screen" href=""""),_display_(/*8.58*/routes/*8.64*/.Assets.versioned("stylesheets/main.css")),format.raw/*8.105*/("""">
+            <link rel="shortcut icon" type="image/png" href=""""),_display_(/*9.63*/routes/*9.69*/.Assets.versioned("images/favicon.png")),format.raw/*9.108*/("""">
             <title>ChatBot</title>
         </head>
     <body>
@@ -52,10 +51,8 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
                 <button type="submit">Enviar</button>
             </form>
         </div>
-
-
-        <script type='text/javascript' src='"""),_display_(/*26.46*/routes/*26.52*/.Assets.versioned("javascripts/components.js")),format.raw/*26.98*/("""'></script>
-        <script type='text/javascript' src='"""),_display_(/*27.46*/routes/*27.52*/.Assets.versioned("javascripts/app.js")),format.raw/*27.91*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*23.46*/routes/*23.52*/.Assets.versioned("javascripts/components.js")),format.raw/*23.98*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*24.46*/routes/*24.52*/.Assets.versioned("javascripts/app.js")),format.raw/*24.91*/("""'></script>
     </body>
 </html>"""))
       }
@@ -73,11 +70,11 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Thu May 24 15:53:50 GFT 2018
+                  DATE: Thu May 24 17:02:33 GFT 2018
                   SOURCE: C:/Users/muchmore/chatbot-java/app/views/chat.scala.html
-                  HASH: d602a565e00adaf65673d65d7176c698ed28a50b
-                  MATRIX: 1029->2|1567->514|1581->520|1643->561|1736->627|1751->633|1812->672|2351->1184|2366->1190|2433->1236|2518->1294|2533->1300|2593->1339
-                  LINES: 33->2|40->9|40->9|40->9|41->10|41->10|41->10|57->26|57->26|57->26|58->27|58->27|58->27
+                  HASH: fef2d2e099c5ddfae68ad7b9e2612cd1f86307c8
+                  MATRIX: 1029->2|1470->417|1484->423|1546->464|1638->530|1652->536|1712->575|2247->1083|2262->1089|2329->1135|2414->1193|2429->1199|2489->1238
+                  LINES: 33->2|39->8|39->8|39->8|40->9|40->9|40->9|54->23|54->23|54->23|55->24|55->24|55->24
                   -- GENERATED --
               */
           

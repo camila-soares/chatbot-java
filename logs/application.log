@@ -3705,3 +3705,10 @@ java.lang.RuntimeException: WebSocket returned for non WebSocket request
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-25 13:44:04,811 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-476 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-25 13:44:04,814 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-476 - Application started (Dev)

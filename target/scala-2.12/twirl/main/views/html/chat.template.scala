@@ -37,6 +37,7 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <link rel="stylesheet" media="screen" href=""""),_display_(/*7.58*/routes/*7.64*/.Assets.versioned("stylesheets/main.css")),format.raw/*7.105*/("""">
             <link rel="shortcut icon" type="image/png" href=""""),_display_(/*8.63*/routes/*8.69*/.Assets.versioned("images/favicon.png")),format.raw/*8.108*/("""">
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <title>ChatBot</title>
         </head>
     <body>
@@ -52,8 +53,8 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
                 <button type="submit">Enviar</button>
             </form>
         </div>
-        <script type='text/javascript' src='"""),_display_(/*24.46*/routes/*24.52*/.Assets.versioned("javascripts/components.js")),format.raw/*24.98*/("""'></script>
-        <script type='text/javascript' src='"""),_display_(/*25.46*/routes/*25.52*/.Assets.versioned("javascripts/app.js")),format.raw/*25.91*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*25.46*/routes/*25.52*/.Assets.versioned("javascripts/components.js")),format.raw/*25.98*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*26.46*/routes/*26.52*/.Assets.versioned("javascripts/app.js")),format.raw/*26.91*/("""'></script>
     </body>
 </html>"""))
       }
@@ -71,11 +72,11 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Fri May 25 12:15:10 GFT 2018
+                  DATE: Fri May 25 13:44:01 GFT 2018
                   SOURCE: C:/Users/muchmore/chatbot-java/app/views/chat.scala.html
-                  HASH: b5dcfb541ec87edee4a54bebf93b3a38c1e0b098
-                  MATRIX: 1029->2|1266->213|1280->219|1342->260|1434->326|1448->332|1508->371|2097->933|2112->939|2179->985|2264->1043|2279->1049|2339->1088
-                  LINES: 33->2|38->7|38->7|38->7|39->8|39->8|39->8|55->24|55->24|55->24|56->25|56->25|56->25
+                  HASH: 33b4d269ed8a0e8a5839e40917c33e95a4a7ac5a
+                  MATRIX: 1029->2|1266->213|1280->219|1342->260|1434->326|1448->332|1508->371|2201->1037|2216->1043|2283->1089|2368->1147|2383->1153|2443->1192
+                  LINES: 33->2|38->7|38->7|38->7|39->8|39->8|39->8|56->25|56->25|56->25|57->26|57->26|57->26
                   -- GENERATED --
               */
           

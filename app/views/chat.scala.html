@@ -4,16 +4,17 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta http-equiv="Content-Security-Policy" content="connect-src 'self' * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self'; script-src 'self' 'unsafe-inline'; media-src *;">
             <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
             <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
             <title>ChatBot</title>
         </head>
     <body>
-        <div id="watson" class="watson">
+        <div id="on" class="watson">
             <div class="mensagens">
                 <div class="area" id="chat">
 		</div>
+                <div id="chat-messages">
+        </div>
             </div>
             <form id="mensagem" class="mensagem">
                 <input type="text" id="texto" name="texto" placeholder="Digite sua mensagem"/>

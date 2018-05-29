@@ -10,15 +10,12 @@ import services.handler.WebsocketHandler;
 
 import javax.inject.Inject;
 
-import static play.libs.streams.ActorFlow.actorRef;
 
 
 public class BotController extends Controller {
 
     private final ActorSystem actorSystem;
     private final Materializer materializer;
-
-
 
     @Inject
     public BotController(ActorSystem actorSystem, Materializer materializer){
@@ -28,7 +25,7 @@ public class BotController extends Controller {
     }
 
     public WebSocket socket() {
-        return WebSocket.Json.accept(request ->
+        return WebSocket.Text.accept(request ->
                 ActorFlow.actorRef(WebsocketHandler::props,
                         actorSystem, materializer
                 )

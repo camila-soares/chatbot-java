@@ -4,7 +4,7 @@
 		module="chatbot-java$sources"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180524093927"
+		publication="20180529122343"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

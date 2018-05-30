@@ -45,6 +45,13 @@ $(document).ready(function () {
         var umsg = msg.message;
       //  var uname = msg.name;
       //  var ucolor = msg.color;
+        var data = [];
+    data.push({'message': umsg});
+    var dados_user = JSON.stringify(data)
+        var parser = JSON.parse(dados_user);
+    for(i in dados_user){
+        console.log(parser[i]);
+    }
 
         console.log(type);
         if (type === 'usermsg') {

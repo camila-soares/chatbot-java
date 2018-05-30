@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:76:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable userPay[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
-[0m[[0m[31merror[0m] [0m[0m        watsonService.sendMessageToWatson(userPay.getText(), context, null, null, false, getSender());[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable LOG_TAG[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.WebsocketHandler[0m
+[0m[[0m[31merror[0m] [0m[0m            Logger.error("{} {}", LOG_TAG, e.getMessage());[0m

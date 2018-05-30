@@ -1,0 +1,28 @@
+@(secured: Boolean)
+(function (d) {
+var iframe = d.createElement('iframe'), div = d.createElement('div'), body = d.getElementsByTagName('body')[0];
+iframe.src = "@routes.BotController.socket().absoluteURL(secured)";
+    iframe.width = 320;
+    iframe.height = 480;
+    iframe.frameBorder = 0;
+    iframe.id = "mmChat";
+    div.style = "position: fixed; bottom: 0; right: 5px; z-index: 999";
+    div.appendChild(iframe);
+    body.insertBefore(div, body.firstChild);
+
+    function resizeFrame(x, y) {
+    iframe.width = x;
+    iframe.height = y;
+    }
+
+    window.addEventListener('message', function (e) {
+    try {
+    var data = JSON.parse(e.data);
+    if (data.size) {
+    resizeFrame(data.size.width, data.size.height);
+    }
+    } catch (err) {
+    // ignored
+    }
+    }, false);
+    })(document);

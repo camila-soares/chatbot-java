@@ -12,7 +12,7 @@ public class Message {
     public Message() {
     }
 
-    public Message(String text) {
+    public Message(String texto) {
         this.texto = texto;
     }
 

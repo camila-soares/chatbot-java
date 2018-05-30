@@ -9,7 +9,6 @@ import com.ibm.watson.developer_cloud.conversation.v1.model.Context;
 import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
 import com.typesafe.config.Config;
 import models.chatsdk.Message;
-import models.chatsdk.Payload;
 import modules.UserContext;
 import play.libs.Json;
 import services.WatsonService;
@@ -17,16 +16,19 @@ import services.WatsonService;
 import javax.inject.Inject;
 import java.util.List;
 
+
 public class MessageHandler extends UntypedAbstractActor {
 
     private final WatsonService watsonService;
     private final ActorSystem akka;
     private UserContext context;
+    private final Config config;
 
     @Inject
     public MessageHandler(WatsonService watsonService, ActorSystem akka, String googleApikey, Config config) {
         this.watsonService = watsonService;
         this.akka = akka;
+        this.config = config;
 
     }
 
@@ -34,45 +36,39 @@ public class MessageHandler extends UntypedAbstractActor {
     @Override
     public void onReceive(Object message) throws Throwable {
         if(message instanceof UserContext){
-            handlerWatsonMessage((UserContext) message);
+            handleWatsonMessage((UserContext) message);
         }else if(message instanceof JsonNode){
             handlerUserMessage((JsonNode) message);
         }
 
     }
 
-    private void handlerWatsonMessage(UserContext context) {
+    private void handleWatsonMessage(UserContext context) {
         MessageResponse response = context.getWatsonResponse();
         List<String> textList = response.getOutput().getText();
         final String text = textList.size() != 0 ? textList.get(0): "";
         Context watsonContext = context.getContext();
         ActorRef sender = sender();
 
-        String env = String.valueOf(watsonContext.remove("fail"));
         noCommandHandler(context, text);
 
         context.setContext(watsonContext);
 
         }
 
-    private void noCommandHandler(UserContext context, String text) {
+
+    private void noCommandHandler(UserContext context , String text) {
         Message message = new Message();
-
-
-        Payload payload = new Payload();
-        payload.setText(text);
         sendMessageToUser(sender(), context, text, message);
     }
 
-    private void sendMessageToUser(ActorRef sender, UserContext context, String text, Message messageForClient) {
-        sender.tell(messageForClient, self());
-
+    private void sendMessageToUser(ActorRef sender , UserContext context , String text , Message messageToClient) {
+        sender.tell ( messageToClient, self () );
     }
 
 
     private void handlerUserMessage(JsonNode messageJson) {
         Message userInput = Json.fromJson(messageJson, Message.class);
-
 
         watsonService.sendMessageToWatson(userInput.getTexto (), context, null, null, false, getSender());
 

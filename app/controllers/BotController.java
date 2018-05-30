@@ -25,7 +25,7 @@ public class BotController extends Controller {
     }
 
     public WebSocket socket() {
-        return WebSocket.Text.accept(request ->
+        return WebSocket.Json.accept(request ->
                 ActorFlow.actorRef(WebsocketHandler::props,
                         actorSystem, materializer
                 )

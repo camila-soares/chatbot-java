@@ -57,13 +57,10 @@ public class MessageHandler extends UntypedAbstractActor {
 
     private void noCommandHandler(UserContext context, String text) {
         Message message = new Message();
-        message.setAction(Message.Action.TEXT);
+
 
         Payload payload = new Payload();
         payload.setText(text);
-
-        message.setPayload(payload);
-
         sendMessageToUser(sender(), context, text, message);
     }
 
@@ -75,10 +72,9 @@ public class MessageHandler extends UntypedAbstractActor {
 
     private void handlerUserMessage(JsonNode messageJson) {
         Message userInput = Json.fromJson(messageJson, Message.class);
-        Payload userPay = userInput.getPayload();
 
-        watsonService.sendMessageToWatson(userPay.getText(), context, null, null, false, getSender());
-        watsonService.sendMessageToWatson(Payload.Postback.GET_STARTED, context, null, null, false, getSender());
+
+        watsonService.sendMessageToWatson(userInput.getTexto (), context, null, null, false, getSender());
 
 
     }

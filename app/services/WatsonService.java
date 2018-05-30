@@ -50,18 +50,21 @@ public class WatsonService {
         inputBuilder.text(inputText);
 
         messageBuilder.input(inputBuilder.build());
-        messageBuilder.alternateIntents(alternateIntents);
+       // messageBuilder.alternateIntents(alternateIntents);
+
 
         if (context.getWatsonContext() != null) messageBuilder.context(context.getContext());
         if (intents != null && !intents.isEmpty()) messageBuilder.intents(intents);
         if (entities != null) messageBuilder.entities(entities);
 
         conversation.message(messageBuilder.build()).enqueue(new ServiceCallback<MessageResponse>() {
+
             @Override
             public void onResponse(MessageResponse response) {
                 context.setWatsonResponse(response);
                 context.setContext(response.getContext());
                 handlerActor.tell(context, sender);
+
             }
 
             @Override

@@ -4,7 +4,6 @@ import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedAbstractActor;
 import com.fasterxml.jackson.databind.JsonNode;
-import jdk.nashorn.internal.ir.ObjectNode;
 import models.chatsdk.Message;
 import modules.UserContext;
 import play.libs.Json;
@@ -23,20 +22,11 @@ public class WebsocketHandler extends UntypedAbstractActor {
     }
 
 
-    @Override
-    public void onReceive(Object obj) throws Throwable {
+    public void onReceive(Object obj) {
         if(obj instanceof JsonNode){
-            Message message = Json.fromJson((JsonNode) obj, Message.class);
-            switch (message.getAction ()){
-                case TEXT:
-                    checkUserContext((ObjectNode) obj);
-                    break;
-                case PING:
-                    handlerPing();
-                    break;
-                    default:
-                        out.tell(obj, getSelf ());
-            }
+           Message message = Json.fromJson ( (JsonNode) obj, Message.class );
+          message.equals ( obj );
+          out.tell ( obj, getSelf () );
         }else if(obj instanceof UserContext){
             out.tell(obj, getSelf ());
         }else if (obj instanceof Message){
@@ -44,16 +34,6 @@ public class WebsocketHandler extends UntypedAbstractActor {
         }else
             unhandled (obj);
 
-    }
-
-    private void checkUserContext(ObjectNode obj) {
-
-    }
-
-    private void handlerPing() {
-        Message msg = new Message ();
-        msg.setAction (Message.Action.PONG);
-        out.tell(Json.toJson(msg), getSelf());
     }
 
 }

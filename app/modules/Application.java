@@ -26,8 +26,7 @@ public class Application extends AbstractModule implements AkkaGuiceSupport {
     @Override
     protected void configure() {
 
-        Conversation conversation;
-        conversation = new Conversation(
+        Conversation conversation = new Conversation(
                 config.getString("conversation.api.version"),
                 config.getString("conversation.api.username"),
                 config.getString("conversation.api.password")

@@ -36,7 +36,7 @@ public class UserContext implements Serializable {
     }
 
     public Context getContext() {
-        JsonNode contextNode = Json.parse(watsonContext);
+        JsonNode contextNode = Json.parse (watsonContext);
         return Json.fromJson(contextNode, Context.class);
     }
 

@@ -39,7 +39,6 @@ public class MessageHandler extends UntypedAbstractActor {
         }else if(message instanceof JsonNode){
             handlerUserMessage((JsonNode) message);
         }
-
     }
 
     private void handleWatsonMessage(UserContext context) {
@@ -59,6 +58,7 @@ public class MessageHandler extends UntypedAbstractActor {
 
     private void sendMessageToUser(ActorRef sender , UserContext context , String text) {
         sender.tell ( text, self () );
+        context.getWatsonResponse ();
     }
 
 

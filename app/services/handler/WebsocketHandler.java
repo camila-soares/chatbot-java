@@ -41,11 +41,10 @@ public class WebsocketHandler extends UntypedAbstractActor {
         }
     }
 
-    private void checkUserContext(ObjectNode obj) {
-            ObjectNode configNode = Json.newObject ();
-            out.tell ( configNode, getSelf () );
+    private void checkUserContext(ObjectNode msg) {
+       ObjectNode configNode = Json.newObject ();
+       out.tell ( configNode, getSelf ());
     }
-
 
 }
 

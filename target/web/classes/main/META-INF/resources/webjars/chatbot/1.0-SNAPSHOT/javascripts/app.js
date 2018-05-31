@@ -6,9 +6,6 @@ $(document).ready(function () {
         $('#message_box').append("<div class=\"system_msg\">Conectado!</div>");
     };
 
-
-
-
         $('#send-btn').click(function () {
         var mymessage = $('#message').val();
        // var myname = $('#name').val();

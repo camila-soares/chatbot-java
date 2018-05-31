@@ -1,136 +1,14 @@
-2018-05-31 11:22:33,598 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-05-31 17:09:15,127 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2018-05-31 11:22:33,681 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
-2018-05-31 11:28:28,266 [ERROR] from akka.stream.impl.ActorRefSourceActor in application-akka.actor.default-dispatcher-10 - Failing because buffer is full and overflowStrategy is: [Fail]
-2018-05-31 11:28:28,294 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-37 - WebSocket flow threw exception
-akka.stream.BufferOverflowException: Buffer overflow (max capacity was: 16)!
-	at akka.stream.impl.ActorRefSourceActor$$anonfun$receiveElem$1.applyOrElse(ActorRefSourceActor.scala:91)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.ActorRefSourceActor.akka$stream$actor$ActorPublisher$$super$aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.stream.actor.ActorPublisher.aroundReceive(ActorPublisher.scala:329)
-	at akka.stream.actor.ActorPublisher.aroundReceive$(ActorPublisher.scala:272)
-	at akka.stream.impl.ActorRefSourceActor.aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2018-05-31 11:28:39,037 [ERROR] from akka.stream.impl.ActorRefSourceActor in application-akka.actor.default-dispatcher-9 - Failing because buffer is full and overflowStrategy is: [Fail]
-2018-05-31 11:28:39,047 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-32 - WebSocket flow threw exception
-akka.stream.BufferOverflowException: Buffer overflow (max capacity was: 16)!
-	at akka.stream.impl.ActorRefSourceActor$$anonfun$receiveElem$1.applyOrElse(ActorRefSourceActor.scala:91)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.ActorRefSourceActor.akka$stream$actor$ActorPublisher$$super$aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.stream.actor.ActorPublisher.aroundReceive(ActorPublisher.scala:329)
-	at akka.stream.actor.ActorPublisher.aroundReceive$(ActorPublisher.scala:272)
-	at akka.stream.impl.ActorRefSourceActor.aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2018-05-31 12:08:10,527 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-47 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-05-31 17:09:15,205 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2018-05-31 17:25:35,859 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-31 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2018-05-31 12:08:10,542 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-47 - Application started (Dev)
-2018-05-31 12:08:19,949 [ERROR] from akka.stream.impl.ActorRefSourceActor in application-akka.actor.default-dispatcher-9 - Failing because buffer is full and overflowStrategy is: [Fail]
-2018-05-31 12:08:19,957 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-50 - WebSocket flow threw exception
-akka.stream.BufferOverflowException: Buffer overflow (max capacity was: 16)!
-	at akka.stream.impl.ActorRefSourceActor$$anonfun$receiveElem$1.applyOrElse(ActorRefSourceActor.scala:91)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.ActorRefSourceActor.akka$stream$actor$ActorPublisher$$super$aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.stream.actor.ActorPublisher.aroundReceive(ActorPublisher.scala:329)
-	at akka.stream.actor.ActorPublisher.aroundReceive$(ActorPublisher.scala:272)
-	at akka.stream.impl.ActorRefSourceActor.aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2018-05-31 13:34:59,971 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-97 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2018-05-31 13:34:59,986 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-97 - Application started (Dev)
-2018-05-31 13:45:51,064 [ERROR] from akka.stream.impl.ActorRefSourceActor in application-akka.actor.default-dispatcher-30 - Failing because buffer is full and overflowStrategy is: [Fail]
-2018-05-31 13:45:51,069 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-136 - WebSocket flow threw exception
-akka.stream.BufferOverflowException: Buffer overflow (max capacity was: 16)!
-	at akka.stream.impl.ActorRefSourceActor$$anonfun$receiveElem$1.applyOrElse(ActorRefSourceActor.scala:91)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.ActorRefSourceActor.akka$stream$actor$ActorPublisher$$super$aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.stream.actor.ActorPublisher.aroundReceive(ActorPublisher.scala:329)
-	at akka.stream.actor.ActorPublisher.aroundReceive$(ActorPublisher.scala:272)
-	at akka.stream.impl.ActorRefSourceActor.aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2018-05-31 13:46:24,495 [ERROR] from akka.stream.impl.ActorRefSourceActor in application-akka.actor.default-dispatcher-32 - Failing because buffer is full and overflowStrategy is: [Fail]
-2018-05-31 13:46:24,504 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-140 - WebSocket flow threw exception
-akka.stream.BufferOverflowException: Buffer overflow (max capacity was: 16)!
-	at akka.stream.impl.ActorRefSourceActor$$anonfun$receiveElem$1.applyOrElse(ActorRefSourceActor.scala:91)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at scala.PartialFunction$OrElse.applyOrElse(PartialFunction.scala:172)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.ActorRefSourceActor.akka$stream$actor$ActorPublisher$$super$aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.stream.actor.ActorPublisher.aroundReceive(ActorPublisher.scala:329)
-	at akka.stream.actor.ActorPublisher.aroundReceive$(ActorPublisher.scala:272)
-	at akka.stream.impl.ActorRefSourceActor.aroundReceive(ActorRefSourceActor.scala:29)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-31 17:25:35,876 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-31 - Application started (Dev)

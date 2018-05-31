@@ -1,4 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:50:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable LOG_TAG[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:40:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable ObjectNode[0m
 [0m[[0m[31merror[0m] [0m[0m  location: class services.handler.WebsocketHandler[0m
-[0m[[0m[31merror[0m] [0m[0m            Logger.error("{} {}", LOG_TAG, e.getMessage());[0m
+[0m[[0m[31merror[0m] [0m[0m            checkUserContext((ObjectNode) , obj);[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:40:1: illegal start of type[0m
+[0m[[0m[31merror[0m] [0m[0m            checkUserContext((ObjectNode) , obj);[0m

@@ -1,0 +1,17 @@
+[info] Packaging C:\Users\muchmore\chatbot-java\target\scala-2.12\chatbot-java_2.12-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	models\chat.scala.html
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\models\chat.scala.html
+[debug] 	views\index.scala.html
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\views\index.scala.html
+[debug] 	models
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\models
+[debug] 	views\main.scala.html
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\views\main.scala.html
+[debug] 	views\chat.scala.html
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\views\chat.scala.html
+[debug] 	views\mainjs.scala.html
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\views\mainjs.scala.html
+[debug] 	views
+[debug] 	  C:\Users\muchmore\chatbot-java\target\scala-2.12\classes\views
+[info] Done packaging.

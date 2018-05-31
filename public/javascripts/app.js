@@ -6,9 +6,6 @@ $(document).ready(function () {
         $('#message_box').append("<div class=\"system_msg\">Conectado!</div>");
     };
 
-
-
-
         $('#send-btn').click(function () {
         var mymessage = $('#message').val();
        // var myname = $('#name').val();
@@ -19,16 +16,13 @@ $(document).ready(function () {
             return;
         }*/
         if (mymessage === "") {
-            alert("Entre com aguma mensagem");
+            alert("Entre com alguma mensagem");
             return;
-        }
-
-            if(mymessage != ""){
+        } else if(mymessage != ""){
                 $('#message_box').append("<div><span class=\"user_message\">" + mymessage + "</span></div>");
             }
 
-
-        var msg = {
+            var msg = {
             message: mymessage,
             //name: myname,
             //toname: toname,
@@ -43,19 +37,15 @@ $(document).ready(function () {
         var msg = JSON.parse(ev.data);
         var type = msg.type;
         var umsg = msg.message;
-      //  var uname = msg.name;
-      //  var ucolor = msg.color;
         var data = [];
     data.push({'message': umsg});
     var dados_user = JSON.stringify(data)
         var parser = JSON.parse(dados_user);
-    for(i in dados_user){
-        console.log(parser[i]);
-    }
 
-        console.log(type);
+
+       console.log(type);
         if (type === 'usermsg') {
-            $('#message_box').append("<div><span class=\"user_name\" style=\"color:#" + ucolor + "\">" + uname + "</span> : <span class=\"user_message\">" + umsg + "</span></div>");
+            $('#message_box').append("<div><span class=\"user_name\" style=\"color:" + ucolor + "\">" + uname + "</span> : <span class=\"user_message\">" + umsg + "</span></div>");
         } else if (type === 'system') {
             $('#message_box').append("<div class=\"system_msg\">" + umsg + "</div>");
         }

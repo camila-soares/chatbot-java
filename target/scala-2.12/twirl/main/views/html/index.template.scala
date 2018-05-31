@@ -31,24 +31,23 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 
 Seq[Any](format.raw/*1.17*/("""
-
-"""),format.raw/*3.1*/("""<!doctype html>
+"""),format.raw/*2.1*/("""<!doctype html>
 
 <html lang="pt-br">
   <head>
-    <title>"""),_display_(/*7.13*/title),format.raw/*7.18*/("""</title>
+    <title>"""),_display_(/*6.13*/title),format.raw/*6.18*/("""</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
   </head>
   <body style="background-color: darkgray;">
 
     <script type="text/javascript">
-            (function (d, t, b) """),format.raw/*14.33*/("""{"""),format.raw/*14.34*/("""
-              """),format.raw/*15.15*/("""var a = d.createElement(t), e = d.getElementsByTagName(b)[0];
+            (function (d, t, b) """),format.raw/*13.33*/("""{"""),format.raw/*13.34*/("""
+              """),format.raw/*14.15*/("""var a = d.createElement(t), e = d.getElementsByTagName(b)[0];
               a.type = 'text/javascript';
               a.src = '/chat.js';
               e.insertBefore(a, e.firstChild);
-            """),format.raw/*19.13*/("""}"""),format.raw/*19.14*/(""")(document, 'script', 'body');
+            """),format.raw/*18.13*/("""}"""),format.raw/*18.14*/(""")(document, 'script', 'body');
     </script>
 
   </body>
@@ -69,11 +68,11 @@ Seq[Any](format.raw/*1.17*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue May 22 09:43:53 GFT 2018
+                  DATE: Thu May 31 10:56:16 BRT 2018
                   SOURCE: C:/Users/muchmore/chatbot-java/app/views/index.scala.html
-                  HASH: cb01e6242f69e4a574a420afc02dbab062a8677d
-                  MATRIX: 948->1|1058->16|1088->20|1176->82|1201->87|1477->335|1506->336|1550->352|1779->553|1808->554
-                  LINES: 28->1|33->1|35->3|39->7|39->7|46->14|46->14|47->15|51->19|51->19
+                  HASH: b4488e551c4f78670e3edb167a73e3fcc2740dc2
+                  MATRIX: 948->1|1058->16|1086->18|1174->80|1199->85|1475->333|1504->334|1548->350|1777->551|1806->552
+                  LINES: 28->1|33->1|34->2|38->6|38->6|45->13|45->13|46->14|50->18|50->18
                   -- GENERATED --
               */
           

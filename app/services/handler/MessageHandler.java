@@ -15,19 +15,18 @@ import services.WatsonService;
 
 import javax.inject.Inject;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 
 public class MessageHandler extends UntypedAbstractActor {
 
     private final WatsonService watsonService;
-    private final ActorSystem akka;
     private UserContext context;
     private final Config config;
 
     @Inject
-    public MessageHandler(WatsonService watsonService, ActorSystem akka, String googleApikey, Config config) {
+    public MessageHandler(WatsonService watsonService, Config config) {
         this.watsonService = watsonService;
-        this.akka = akka;
         this.config = config;
 
     }
@@ -50,20 +49,22 @@ public class MessageHandler extends UntypedAbstractActor {
         Context watsonContext = context.getContext();
         ActorRef sender = sender();
 
+        sendMessageToUser( sender, context, text);
+
         noCommandHandler(context, text);
 
         context.setContext(watsonContext);
 
         }
 
-
-    private void noCommandHandler(UserContext context , String text) {
-        Message message = new Message();
-        sendMessageToUser(sender(), context, text, message);
+    private void sendMessageToUser(ActorRef sender , UserContext context , String text) {
+        sender.tell ( text, self () );
     }
 
-    private void sendMessageToUser(ActorRef sender , UserContext context , String text , Message messageToClient) {
-        sender.tell ( messageToClient, self () );
+
+
+    private void noCommandHandler(UserContext context , String text) {
+        sendMessageToUser(sender(), context, text);
     }
 
 

@@ -49,6 +49,7 @@ public class WatsonService {
         if (context == null)
             throw new IllegalArgumentException();
 
+
         MessageOptions.Builder messageBuilder = new MessageOptions.Builder();
         messageBuilder.workspaceId(workspaceId);
 
@@ -65,6 +66,8 @@ public class WatsonService {
 
         conversation.message(messageBuilder.build()).enqueue(new ServiceCallback<MessageResponse>() {
 
+
+
             @Override
             public void onResponse(MessageResponse response) {
                 context.setWatsonResponse(response);
@@ -77,44 +80,44 @@ public class WatsonService {
             public void onFailure(Exception e) {
                 Logger.error("[{}] {}", LOG_TAG, e.getMessage());
                 if (Play.current().isDev())
-                    e.printStackTrace();
+
+                e.printStackTrace();
             }
         });
 
     }
-    
+
     public CompletionStage<Void> createEntityValue(String entity, Map<String, List<String>> values, boolean fuzzyMatched) {
-        CompletableFuture<Void> aVoid = new CompletableFuture <> ();
-        GetEntityOptions.Builder getBuilder = new GetEntityOptions.Builder ( );
-        getBuilder.workspaceId ( workspaceId );
-        getBuilder.entity (  entity);
-        getBuilder.export ( true );
-        ServiceCall<EntityExport> getServiceCall = conversation.getEntity ( getBuilder.build () );
-        getServiceCall.enqueue ( new ServiceCallback<EntityExport>() {
+        CompletableFuture<Void> aVoid = new CompletableFuture<>();
+        GetEntityOptions.Builder getBuilder = new GetEntityOptions.Builder();
+        getBuilder.workspaceId(workspaceId);
+        getBuilder.entity(entity);
+        getBuilder.export(true);
+        ServiceCall<EntityExport> getServiceCall = conversation.getEntity(getBuilder.build());
+        getServiceCall.enqueue(new ServiceCallback<EntityExport>() {
             @Override
             public void onResponse(EntityExport response) {
                 Logger.debug("[{}] Updating existing entity", LOG_TAG);
-
-                if(entity.equals(response.getEntityName())){
+                if (entity.equals(response.getEntityName())) {
                     UpdateEntityOptions.Builder builder = new UpdateEntityOptions.Builder();
                     builder.entity(entity);
                     builder.newFuzzyMatch(fuzzyMatched);
                     builder.newValues(getUpdateValues(response.getValues(), values));
-                    builder.workspaceId ( workspaceId );
-                    ServiceCall<Entity> serviceCall = conversation.updateEntity ( builder.build () );
-                    serviceCall.enqueue ( new ServiceCallback <Entity> () {
+                    builder.workspaceId(workspaceId);
+                    ServiceCall<Entity> serviceCall = conversation.updateEntity(builder.build());
+                    serviceCall.enqueue(new ServiceCallback<Entity>() {
                         @Override
                         public void onResponse(Entity response) {
-                            aVoid.complete ( null );
-                            Logger.info ( "[{}] {] ", LOG_TAG, "Entity" + response.getEntityName () + "updated");
+                            aVoid.complete(null);
+                            Logger.info("[{}] {}", LOG_TAG, "Entity " + response.getEntityName() + " updated");
                         }
 
                         @Override
                         public void onFailure(Exception e) {
-                            Logger.error ( "[{}] {] ", LOG_TAG, e.getStackTrace ());
-                            aVoid.completeExceptionally ( e );
+                            Logger.error("[{}] {}", LOG_TAG, e.getMessage());
+                            aVoid.completeExceptionally(e);
                         }
-                    } );
+                    });
                 }
             }
 
@@ -127,6 +130,7 @@ public class WatsonService {
         });
         return aVoid;
     }
+
 
     private List<CreateValue> getUpdateValues(List<ValueExport> oldValues, Map<String, List<String>> newValues) {
         List<CreateValue> updateList = new ArrayList <> ( );

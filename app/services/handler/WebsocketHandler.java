@@ -35,21 +35,17 @@ public class WebsocketHandler extends UntypedAbstractActor {
 
     public void onReceive(Object obj) throws Exception {
         if(obj instanceof JsonNode){
-            log.info ( "Received Json Message:{}", obj );
-            getSender ().tell ( obj, getSelf () );
-            checkUserContext ( (ObjectNode) obj );
+            log.info("Received Json Message:{}", obj );
+            getSender().tell(obj,getSelf());
+            checkUserContext((ObjectNode) obj);
         }
     }
 
-    private void checkUserContext(ObjectNode msg) {
-        try{
-            String subject = null;
+    private void checkUserContext(ObjectNode obj) {
             ObjectNode configNode = Json.newObject ();
-            out.tell ( configNode, getSelf ());
-        }catch (Exception e){
-            actorSystem.stop(out);
-        }
+            out.tell ( configNode, getSelf () );
     }
+
 
 }
 

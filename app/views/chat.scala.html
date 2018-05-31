@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,6 @@
                 <input type="text" name="message" class="message" id="message" placeholder="Message" maxlength="80" style="width:40%" />
                 <button id="send-btn">Send</button>
             </div>
-        </div>
-
-
         </div>
         @helper.javascriptRouter("jsRoutes")(routes.javascript.BotController.socket)
         <script type="text/javascript">

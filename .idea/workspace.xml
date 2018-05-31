@@ -2,180 +2,569 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b0f271-77ff-4023-b77e-f5cbb5510bca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.g8/form/app/controllers/$model__Camel$Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.g8/form/app/controllers/$model__Camel$Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.g8/form/app/views/$model__camel$/form.scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.g8/form/default.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.g8/form/generated-test/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.g8/form/generated-test/controllers/$model__Camel$ControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__cglib_cglib_nodep_3_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_classmate_1_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_8_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_8_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_8_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_errorprone_error_prone_annotations_2_0_18_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_22_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_extensions_guice_assistedinject_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_guice_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_j2objc_j2objc_annotations_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_alchemy_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_conversation_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_core_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_discovery_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_document_conversion_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_java_sdk_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_language_translator_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_natural_language_classifier_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_natural_language_understanding_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_personality_insights_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_retrieve_and_rank_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_speech_to_text_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_text_to_speech_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_tone_analyzer_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_tradeoff_analytics_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ibm_watson_developer_cloud_visual_recognition_4_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_squareup_okhttp3_logging_interceptor_3_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_squareup_okhttp3_okhttp_3_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_squareup_okhttp3_okhttp_urlconnection_3_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_squareup_okio_okio_1_13_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_0_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_0_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_build_link_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_cachecontrol_2_12_1_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_filters_helpers_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ahc_ws_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ahc_ws_standalone_2_12_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_akka_http_server_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_exceptions_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_functional_2_12_2_6_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_guice_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_java_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_java_forms_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_json_2_12_2_6_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_logback_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_netty_utils_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_server_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_streams_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_test_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_2_12_2_6_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_2_12_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_json_2_12_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_xml_2_12_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_shaded_asynchttpclient_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_shaded_oauth_1_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_twirl_api_2_12_1_3_14_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_2_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_jsonwebtoken_jjwt_0_9_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_lettuce_lettuce_core_5_0_0_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_buffer_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_common_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_handler_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_resolver_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_transport_4_1_15_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_projectreactor_reactor_core_3_1_0_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_cache_cache_api_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_platform_4_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_jodah_typetools_0_5_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_cssparser_cssparser_0_9_23_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_2_27_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_core_js_2_27_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_neko_htmlunit_2_27_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_exec_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpmime_4_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_atteo_classindex_classindex_3_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_mojo_animal_sniffer_annotations_1_14_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_client_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_http_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_io_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_api_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_client_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_common_9_4_5_v20170502_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_fluentlenium_fluentlenium_core_3_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_jsr166e_2_25_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_hibernate_validator_5_4_1_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_21_0_GA_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_jboss_logging_jboss_logging_3_3_0_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_1_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reflections_reflections_0_9_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_htmlunit_driver_2_27_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_api_3_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_firefox_driver_3_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_remote_driver_3_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_support_3_5_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_25_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_25_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_beans_4_3_11_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_context_4_3_11_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_core_4_3_11_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_w3c_css_sac_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bootstrap_3_3_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_explorercanvas_r3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_flot_0_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_1_11_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_requirejs_2_3_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_webjars_locator_0_32_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_webjars_locator_core_0_32_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_webjars_play_2_12_2_6_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_serializer_2_7_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_xalan_2_7_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/chat.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/chat.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modules/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/UserContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/WatsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/WatsonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/handler/WebsocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/handler/WebsocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/chat.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chat.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatbot-java/models/chat.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatbot-java/views/chat.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatbot-java/views/index.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatbot-java/views/main.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatbot-java/views/mainjs.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/form/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/form/views/$model__camel$/form.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad2e9bd013cec253eb7b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad2e9bd013cec253eb7b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad2e9bd013cec253eb7b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d717950f5988b3405795$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d717950f5988b3405795.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d717950f5988b3405795.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e79c6597790fb27a01e9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e79c6597790fb27a01e9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e79c6597790fb27a01e9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/models/html/chat.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/models/html/chat.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/chat.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/chat.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/index.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/index.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/javascripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/javascripts/components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/javascripts/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/javascripts/source/mmcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/javascripts/source/mmcw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot-java/1.0-SNAPSHOT/stylesheets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/public/main/javascripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.min-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.min-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.min.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.min-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.min-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.min.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/affix.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/alert.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/bootstrap.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/bootstrap.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/button.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/carousel.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/collapse.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/dropdown.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/modal.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/npm.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/popover.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/scrollspy.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/tab.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/tooltip.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/js/transition.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/.csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/alerts.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/badges.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/bootstrap.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/breadcrumbs.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/button-groups.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/buttons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/carousel.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/close.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/code.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/component-animations.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/dropdowns.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/forms.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/glyphicons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/grid.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/input-groups.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/jumbotron.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/labels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/list-group.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/media.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/alerts.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/background-variant.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/border-radius.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/buttons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/center-block.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/clearfix.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/forms.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/gradients.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/grid-framework.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/grid.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/hide-text.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/image.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/labels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/list-group.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/nav-divider.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/nav-vertical-align.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/opacity.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/pagination.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/panels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/progress-bar.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/reset-filter.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/reset-text.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/resize.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/responsive-visibility.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/size.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/tab-focus.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/table-row.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/text-emphasis.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/text-overflow.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/mixins/vendor-prefixes.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/modals.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/navbar.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/navs.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/normalize.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/pager.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/pagination.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/panels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/popovers.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/print.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/progress-bars.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/responsive-embed.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/responsive-utilities.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/scaffolding.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/tables.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/theme.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/thumbnails.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/tooltip.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/type.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/utilities.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/variables.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/less/wells.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/bootstrap/webjars-requirejs.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/explorercanvas/excanvas.compiled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/explorercanvas/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.colorhelpers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.navigate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.symbol.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.threshold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/flot/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/jquery/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/requirejs/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/lib/requirejs/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.min-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.min-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.min.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.min-jsf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.min-jsf.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.min.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/affix.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/alert.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/bootstrap.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/bootstrap.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/button.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/carousel.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/collapse.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/dropdown.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/modal.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/npm.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/popover.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/scrollspy.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/tab.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/tooltip.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/js/transition.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/.csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/alerts.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/badges.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/bootstrap.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/breadcrumbs.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/button-groups.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/buttons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/carousel.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/close.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/code.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/component-animations.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/dropdowns.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/forms.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/glyphicons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/grid.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/input-groups.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/jumbotron.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/labels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/list-group.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/media.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/alerts.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/background-variant.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/border-radius.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/buttons.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/center-block.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/clearfix.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/forms.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/gradients.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/grid-framework.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/grid.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/hide-text.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/image.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/labels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/list-group.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/nav-divider.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/nav-vertical-align.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/opacity.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/pagination.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/panels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/progress-bar.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/reset-filter.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/reset-text.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/resize.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/responsive-visibility.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/size.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/tab-focus.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/table-row.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/text-emphasis.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/text-overflow.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/mixins/vendor-prefixes.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/modals.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/navbar.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/navs.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/normalize.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/pager.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/pagination.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/panels.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/popovers.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/print.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/progress-bars.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/responsive-embed.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/responsive-utilities.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/scaffolding.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/tables.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/theme.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/thumbnails.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/tooltip.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/type.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/utilities.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/variables.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/less/wells.less.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/bootstrap/webjars-requirejs.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/explorercanvas/excanvas.compiled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/explorercanvas/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.colorhelpers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.navigate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.symbol.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.threshold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/flot/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/jquery/webjars-requirejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/requirejs/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/main/webjars/lib/requirejs/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/web-modules/webjars-main.cache" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/web-modules/webjars-main.cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,29 +572,201 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="chatbot-java" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/handler/MessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="33" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="33" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsocketHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/handler/WebsocketHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actor.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/Actor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="516" column="4" selection-start-line="516" selection-start-column="4" selection-end-line="516" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorCell.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/ActorCell.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="565" column="8" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveTimeout.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/dungeon/ReceiveTimeout.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mailbox.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/Mailbox.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="275" column="4" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="259" selection-start-line="259" selection-end-line="259" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinPool.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="1978" selection-start-line="1978" selection-end-line="1978" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinWorkerThread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinWorkerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="106" column="38" lean-forward="true" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createEntityValue</find>
+      <find>for</find>
+      <find>log</find>
+      <find>user_message</find>
+      <find>message</find>
+      <find>message_box</find>
+      <find>dados_user</find>
+      <find>handleWatsonMessage</find>
+      <find>sendMessageToUser</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/models/chat.scala.html" />
+        <option value="$PROJECT_DIR$/app/services/WatsonService.java" />
+        <option value="$PROJECT_DIR$/app/views/chat.scala.html" />
+        <option value="$PROJECT_DIR$/app/modules/UserContext.java" />
+        <option value="$PROJECT_DIR$/app/services/handler/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/app/services/handler/WebsocketHandler.java" />
+        <option value="$PROJECT_DIR$/public/javascripts/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="Play2ProjectSettings">
+    <option name="LANGUAGE_IMPORTS">
+      <array>
+        <option value="_root_.play.twirl.api.Xml" />
+        <option value="_root_.play.twirl.api.Html" />
+        <option value="java.lang._" />
+        <option value="play.mvc._" />
+        <option value="_root_.play.twirl.api.Txt" />
+        <option value="play.data._" />
+        <option value="play.api.data.Field" />
+        <option value="play.api.templates.PlayMagic._" />
+        <option value="_root_.play.twirl.api.JavaScript" />
+        <option value="play.core.j.PlayMagicForJava._" />
+        <option value="_root_.play.twirl.api.TwirlHelperImports._" />
+        <option value="play.core.j.PlayFormsMagicForJava._" />
+        <option value="java.util._" />
+        <option value="scala.collection.JavaConverters._" />
+        <option value="_root_.play.twirl.api.TwirlFeatureImports._" />
+        <option value="play.mvc.Http.Context.Implicit._" />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <showMembers PackagesPane="true" />
       <showModules PackagesPane="true" />
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,12 +777,49 @@
             <path>
               <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
@@ -231,23 +829,31 @@
             <path>
               <item name="chatbot-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot-java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$USER_HOME$/helloworld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\muchmore\chatbot-java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,24 +867,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Remote.Unnamed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -331,6 +922,59 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="chatbot-java" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="Unnamed" type="Play2FrameworkRunConfigurations" factoryName="Play 2 App">
+      <module name="chatbot-java" />
+      <setting name="play2JpdaPort" value="9999" />
+      <setting name="play2JvmOptions" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M" />
+      <setting name="play2NeedOpenInBrowser" value="true" />
+      <setting name="play2OpenUrl" value="http://localhost:9000" />
+      <setting name="play2EnvVariables" value="" />
+      <setting name="play2IsNonDefaultInstallDirUsed" value="false" />
+      <setting name="play2NonDefaultInstallDir" value="" />
+      <setting name="play2isAutoReloadEnabled" value="false" />
+    </configuration>
+    <configuration name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="9999" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9999" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -360,6 +1004,44 @@
       <alternative-path path="1.8" alternative-path-enabled="true" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list>
+      <item itemvalue="Play 2 App.Unnamed" />
+      <item itemvalue="Remote.Unnamed" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chatbot" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2420029300" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2466230007" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1488466746" />
+        <entry key="$PROJECT_DIR$/project/scaffold.sbt" value="0" />
+      </map>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -371,58 +1053,335 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527701966424</updated>
+      <workItem from="1527772115319" duration="301000" />
+      <workItem from="1527772988352" duration="632000" />
+      <workItem from="1527774341141" duration="9863000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10796000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-16" y="0" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49761525" visible="true" weight="0.1727672" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3290938" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990461" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761525" visible="true" weight="0.1727672" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26550078" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5023847" side_tool="true" weight="0.1727672" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/services/handler/MessageHandler.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/Mailbox.scala</url>
+          <line>250</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/services/handler/MessageHandler.java</url>
+          <line>59</line>
+          <properties class="services.handler.MessageHandler" method="sendMessageToUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt" />
-    <entry file="file://$PROJECT_DIR$/chatbot-java.iml" />
-    <entry file="file://$PROJECT_DIR$/build.sbt" />
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BotController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/handler/WebsocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt" />
+    <entry file="file://$PROJECT_DIR$/chatbot-java.iml" />
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BotController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/chat.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.ibm.watson.developer_cloud/conversation/srcs/conversation-4.0.0-sources.jar!/com/ibm/watson/developer_cloud/conversation/v1/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/WatsonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/jline.jar!/org/fusesource/jansi/internal/Kernel32.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/UserContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/AbstractDispatcher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.12/srcs/play_2.12-2.6.13-sources.jar!/play/libs/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#2941#2942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#2315#2316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.11-sources.jar!/akka/event/slf4j/Slf4jLogger.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/event/Logging.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="1196" column="50" selection-start-line="1196" selection-start-column="50" selection-end-line="1196" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/AbstractActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="257" column="53" selection-start-line="257" selection-start-column="53" selection-end-line="257" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="516" column="4" selection-start-line="516" selection-start-column="4" selection-end-line="516" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/dungeon/ReceiveTimeout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/ActorCell.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="565" column="8" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="1978" selection-start-line="1978" selection-end-line="1978" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="106" column="38" lean-forward="true" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/Mailbox.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="275" column="4" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/handler/WebsocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/handler/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="33" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -1,67 +1,75 @@
-var mmChat = {
-  _retry: 0,
-  _maxRetries: 4,
-  _websocket: null,
-  init: function () {
-    this.connect();
-    $('body').on('outgoing-message', function (e) {
-      mmChat._sendMessage(e.message);
-    });
-  },
-  connect: function () {
-    if (this._retry < this._maxRetries &&
-      (!this._websocket ||
-        (this._websocket instanceof WebSocket &&
-          this._websocket.readyState !== WebSocket.OPEN && this._websocket.readyState !== WebSocket.CONNECTING))) {
-      if (this._retry !== 0)
-        console.log("Reconnecting to socket");
-      var url = jsRoutes.controllers.BotController.socket().absoluteURL(secured).replace(/^http/i, 'ws/localhost:9000/chat');
-      console.log("connecting to " + url);
-      this._websocket = new WebSocket(url);
-      this._pinger = setInterval(function () {
-        mmChat._sendMessage({action: "PING"});
-      }, 30000);
-      this._websocket.onopen = function (event) {
-        mmChat._retry = 0;
-        console.log("new connection opened");
-        mmChat._wsStatus(true);
-        mmChatW._sendHello();
-      };
-      this._websocket.onclose = function (event) {
-        console.log("connection closed, retrying...");
-        mmChat._wsStatus(false);
-        clearInterval(mmChat._pinger);
-        setTimeout(function () {
-          mmChat._retry = mmChat._retry + 1;
-          mmChat.connect();
-        }, 1000)
-      };
-      this._websocket.onerror = function (event) {
-        console.log("connection error, retrying...");
-        mmChat._wsStatus(false);
-        clearInterval(mmChat._pinger);
-        setTimeout(function () {
-          mmChat._retry = mmChat._retry + 1;
-          mmChat.connect();
-        }, 1000)
-      };
-      this._websocket.onmessage = function (event) {
-        var ev = jQuery.Event('incoming-message');
-        ev.message = JSON.parse(event.data);
-        // console.log('message', ev.message);
-        $('body').trigger(ev);
-      };
-    } else {
-      console.log("already connected, dropping attempt");
+(function () {
+    let _retry = 0, _maxRetries = 4;
+    let websocket = null, outputScheduler = null;
+    const body = document.getElementsByTagName('body')[0];
+    body.addEventListener('outgoing-message', e => sendMessage(e.detail));
+    let outputMessageQueue = [];
+
+    if (sessionStorage) sessionStorage.setItem("access_token", accessToken);
+
+    function connect() {
+        if (_retry >= _maxRetries) return;
+        if (websocket instanceof WebSocket && (websocket.readyState === WebSocket.OPEN || websocket.readyState === WebSocket.CONNECTING)) return;
+        websocket = new WebSocket(jsRoutes.controllers.ChatbotController.socket(accessToken).webSocketURL(secured));
+        setupWS();
     }
-  },
-  _sendMessage: function (message) {
-    this._websocket.send(JSON.stringify(message));
-  },
-  _wsStatus: function (status) {
-    var ev = jQuery.Event('connection-status');
-    ev.message = status;
-    $('body').trigger(ev);
-  }
-};
-mmChat.init();
+
+    function setupWS() {
+        let pinger = setInterval(function () {
+            sendMessage({action: "PING"});
+        }, 30000);
+
+        websocket.onopen = function (event) {
+            _retry = 0;
+            wsStatus(true);
+        };
+        websocket.onclose = function (event) {
+            clearInterval(pinger);
+            wsStatus(false);
+            setTimeout(function () {
+                _retry = _retry + 1;
+                connect();
+            }, 1000)
+        };
+        websocket.onerror = function (event) {
+            wsStatus(false);
+            clearInterval(pinger);
+            setTimeout(function () {
+                _retry = _retry + 1;
+                connect();
+            }, 1000)
+        };
+        websocket.onmessage = function (event) {
+            const ev = new CustomEvent('incoming-message', {detail: JSON.parse(event.data)});
+            body.dispatchEvent(ev);
+        };
+    }
+
+    function sendMessage(message) {
+        if (websocket.readyState === WebSocket.OPEN)
+            websocket.send(JSON.stringify(message));
+        else {
+            outputMessageQueue.push(message);
+            setupOutputScheduler();
+        }
+    }
+
+    function setupOutputScheduler() {
+        outputScheduler = setInterval(function () {
+            if (outputMessageQueue.length !== 0 && websocket.readyState === WebSocket.OPEN) {
+                sendMessage(outputMessageQueue.pop());
+            }
+            if (outputMessageQueue.length === 0)
+                clearInterval(outputScheduler);
+        }, 1000);
+
+    }
+
+    function wsStatus(status) {
+        const ev = new CustomEvent('connection-status', {detail: {connected: status}});
+        body.dispatchEvent(ev);
+    }
+
+    connect();
+
+})();

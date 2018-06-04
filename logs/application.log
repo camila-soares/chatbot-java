@@ -1,14 +1,151 @@
-2018-05-31 17:09:15,127 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-06-03 15:30:11,384 [ERROR] from akka.actor.OneForOneStrategy in application-akka.actor.default-dispatcher-5 - Unable to provision, see the following errors:
+
+1) Error injecting constructor, com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+  at services.WatsonService.<init>(WatsonService.java:34)
+  at services.WatsonService.class(WatsonService.java:26)
+  while locating services.WatsonService
+    for the 1st parameter of services.handler.MessageHandler.<init>(MessageHandler.java:30)
+  while locating services.handler.MessageHandler
+
+1 error
+akka.actor.ActorInitializationException: akka://application/user/message-handler: exception during creation
+	at akka.actor.ActorInitializationException$.apply(Actor.scala:193)
+	at akka.actor.ActorCell.create(ActorCell.scala:671)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:525)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting constructor, com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+  at services.WatsonService.<init>(WatsonService.java:34)
+  at services.WatsonService.class(WatsonService.java:26)
+  while locating services.WatsonService
+    for the 1st parameter of services.handler.MessageHandler.<init>(MessageHandler.java:30)
+  while locating services.handler.MessageHandler
+
+1 error
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1028)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1054)
+	at play.api.inject.guice.GuiceInjector.instanceOf(GuiceInjectorBuilder.scala:409)
+	at play.api.inject.guice.GuiceInjector.instanceOf(GuiceInjectorBuilder.scala:404)
+	at play.api.inject.ContextClassLoaderInjector.$anonfun$instanceOf$2(Injector.scala:117)
+	at play.api.inject.ContextClassLoaderInjector.withContext(Injector.scala:126)
+	at play.api.inject.ContextClassLoaderInjector.instanceOf(Injector.scala:117)
+	at play.api.libs.concurrent.ActorRefProvider.$anonfun$get$1(Akka.scala:249)
+	at akka.actor.TypedCreatorFunctionConsumer.produce(IndirectActorProducer.scala:87)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:626)
+	at akka.actor.ActorCell.create(ActorCell.scala:652)
+	... 9 common frames omitted
+Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:156)
+	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:149)
+	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:176)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:188)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:193)
+	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:250)
+	at services.WatsonService.<init>(WatsonService.java:38)
+	at services.WatsonService$$FastClassByGuice$$fe3c57d.newInstance(<generated>)
+	at com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:89)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:111)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:110)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1019)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1085)
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1015)
+	... 20 common frames omitted
+2018-06-03 15:30:11,386 [ERROR] from akka.actor.OneForOneStrategy in application-akka.actor.default-dispatcher-5 - Unable to provision, see the following errors:
+
+1) Error injecting constructor, com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+  at services.WatsonService.<init>(WatsonService.java:34)
+  at services.WatsonService.class(WatsonService.java:26)
+  while locating services.WatsonService
+    for the 1st parameter of services.handler.MessageHandler.<init>(MessageHandler.java:30)
+  while locating services.handler.MessageHandler
+
+1 error
+akka.actor.ActorInitializationException: akka://application/user/user-context/$b: exception during creation
+	at akka.actor.ActorInitializationException$.apply(Actor.scala:193)
+	at akka.actor.ActorCell.create(ActorCell.scala:671)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:525)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting constructor, com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+  at services.WatsonService.<init>(WatsonService.java:34)
+  at services.WatsonService.class(WatsonService.java:26)
+  while locating services.WatsonService
+    for the 1st parameter of services.handler.MessageHandler.<init>(MessageHandler.java:30)
+  while locating services.handler.MessageHandler
+
+1 error
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1028)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1054)
+	at play.api.inject.guice.GuiceInjector.instanceOf(GuiceInjectorBuilder.scala:409)
+	at play.api.inject.guice.GuiceInjector.instanceOf(GuiceInjectorBuilder.scala:404)
+	at play.api.inject.ContextClassLoaderInjector.$anonfun$instanceOf$2(Injector.scala:117)
+	at play.api.inject.ContextClassLoaderInjector.withContext(Injector.scala:126)
+	at play.api.inject.ContextClassLoaderInjector.instanceOf(Injector.scala:117)
+	at play.api.libs.concurrent.ActorRefProvider.$anonfun$get$1(Akka.scala:249)
+	at akka.actor.TypedCreatorFunctionConsumer.produce(IndirectActorProducer.scala:87)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:626)
+	at akka.actor.ActorCell.create(ActorCell.scala:652)
+	... 9 common frames omitted
+Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'assistant'
+	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:156)
+	at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:149)
+	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:176)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:188)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:193)
+	at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:250)
+	at services.WatsonService.<init>(WatsonService.java:38)
+	at services.WatsonService$$FastClassByGuice$$fe3c57d.newInstance(<generated>)
+	at com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:89)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:111)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:110)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1019)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1085)
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1015)
+	... 20 common frames omitted
+2018-06-03 15:30:11,544 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-17 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2018-05-31 17:09:15,205 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
-2018-05-31 17:25:35,859 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-31 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2018-05-31 17:25:35,876 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-31 - Application started (Dev)
+2018-06-03 15:30:11,637 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-17 - Application started (Dev)

@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.google.inject.AbstractModule;
-import com.ibm.watson.developer_cloud.conversation.v1.Conversation;
+import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.typesafe.config.Config;
 import play.Environment;
 import play.libs.Json;
@@ -26,12 +26,12 @@ public class Application extends AbstractModule implements AkkaGuiceSupport {
     @Override
     protected void configure() {
 
-        Conversation conversation = new Conversation(
+        Assistant assistant = new Assistant (
                 config.getString("conversation.api.version"),
                 config.getString("conversation.api.username"),
                 config.getString("conversation.api.password")
         );
-        bind(Conversation.class).toInstance(conversation);
+        bind(Assistant.class).toInstance(assistant);
 
         bindActor(MessageHandler.class, "user-context", props -> props.withRouter(new RoundRobinPool(5)));
 

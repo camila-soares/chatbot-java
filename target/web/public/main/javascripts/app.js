@@ -58,5 +58,6 @@ $(document).ready(function () {
     };
     websocket.onclose = function (ev) {
         $('#message_box').append("<div class=\"system_msg\">Conexão finalizada</div>");
+        setTimeout(setupWebSocket, 5000000);
     };
 });

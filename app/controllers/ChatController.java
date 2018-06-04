@@ -10,15 +10,6 @@ public class ChatController extends Controller {
       return ok(views.html.chat.render ());
     }
 
-    private Integer getIdUrl(String url) {
-        if(url.contains("localhost:9000/ws"))
-            return 1;
-        return null;
-    }
-
-
-
-
 }
 
 

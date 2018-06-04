@@ -25,6 +25,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:core:5.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:assistant:5.5.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xml-apis:xml-apis:1.4.01:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xerces:xercesImpl:2.11.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xalan:xalan:2.7.2:jar" level="project" />
@@ -141,22 +143,6 @@
     <orderEntry type="library" name="sbt: com.squareup.okhttp3:okhttp:3.8.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.squareup.okhttp3:logging-interceptor:3.8.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: com.novocode:junit-interface:0.11:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:visual-recognition:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:tradeoff-analytics:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:tone-analyzer:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:text-to-speech:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:speech-to-text:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:retrieve-and-rank:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:personality-insights:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:natural-language-understanding:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:natural-language-classifier:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:language-translator:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:java-sdk:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:document-conversion:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:discovery:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:core:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:conversation:4.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.ibm.watson.developer_cloud:alchemy:4.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.j2objc:j2objc-annotations:1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.inject.extensions:guice-assistedinject:4.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.inject:guice:4.1.0:jar" level="project" />

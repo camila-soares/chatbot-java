@@ -1,38 +1,35 @@
 package modules;
 
+import com.ibm.watson.developer_cloud.assistant.v1.model.Context;
+import com.ibm.watson.developer_cloud.assistant.v1.model.MessageResponse;
 
-
-
-import com.fasterxml.jackson.databind.JsonNode;
-import com.ibm.watson.developer_cloud.conversation.v1.model.Context;
-import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
-import play.libs.Json;
 
 
 import java.io.Serializable;
 
 public class UserContext implements Serializable {
-    private String watsonContext;
+    private String userId;
+    private Context context;
     private transient MessageResponse watsonResponse;
 
     public UserContext() {
     }
 
-
-    public String getWatsonContext() {
-        return watsonContext;
+    public String getUserId() {
+        return userId;
     }
 
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
 
     public Context getContext() {
-        JsonNode contextNode = Json.parse (watsonContext);
-        return Json.fromJson(contextNode, Context.class);
+        return context;
     }
 
     public void setContext(Context context) {
-        JsonNode contextNode = Json.toJson(context);
-        watsonContext = contextNode.toString();
+        this.context = context;
     }
 
     public MessageResponse getWatsonResponse() {
@@ -41,5 +38,6 @@ public class UserContext implements Serializable {
 
     public void setWatsonResponse(MessageResponse watsonResponse) {
         this.watsonResponse = watsonResponse;
+        this.context = watsonResponse.getContext();
     }
 }

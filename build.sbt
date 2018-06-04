@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
   guice,
   "io.jsonwebtoken" % "jjwt" % "0.9.0",
   "org.springframework.data" % "spring-data-mongodb" % "2.0.1.RELEASE",
-  "com.ibm.watson.developer_cloud" % "java-sdk" % "4.0.0",
+  "com.ibm.watson.developer_cloud" % "assistant" % "5.5.0",
   "com.typesafe.play" %% "play-json" % "2.6.7",
   "io.lettuce" % "lettuce-core" % "5.0.0.RELEASE"
 )

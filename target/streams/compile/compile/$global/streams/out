@@ -1,6 +1,18 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:40:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable ObjectNode[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.WebsocketHandler[0m
-[0m[[0m[31merror[0m] [0m[0m            checkUserContext((ObjectNode) , obj);[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\WebsocketHandler.java:40:1: illegal start of type[0m
-[0m[[0m[31merror[0m] [0m[0m            checkUserContext((ObjectNode) , obj);[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:7:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.Context;[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:8:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:9:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.OutputData;[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:47:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class MessageResponse[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
+[0m[[0m[31merror[0m] [0m[0m        MessageResponse response = context.getWatsonResponse();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:48:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Context[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
+[0m[[0m[31merror[0m] [0m[0m        Context watsonContext = context.getContext ();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:52:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class OutputData[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
+[0m[[0m[31merror[0m] [0m[0m        OutputData outputData = response.getOutput ();[0m

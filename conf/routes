@@ -6,7 +6,7 @@
 GET     /                           controllers.HomeController.index
 GET     /chat                       controllers.ChatController.chat
 
-GET        /ws                      controllers.BotController.socket
+GET     /ws                      controllers.BotController.socket
 
 #GET         /chat.js                controllers.ChatController.MainJs
 

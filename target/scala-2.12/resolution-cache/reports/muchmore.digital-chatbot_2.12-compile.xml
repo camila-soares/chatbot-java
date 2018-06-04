@@ -7,10 +7,10 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20180531104901"/>
+		date="20180603152700"/>
 	<dependencies>
 		<module organisation="io.lettuce" name="lettuce-core">
-			<revision name="5.0.0.RELEASE" status="release" pubdate="20170928091721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/lettuce-io/lettuce-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
+			<revision name="5.0.0.RELEASE" status="release" pubdate="20170928091721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/lettuce-io/lettuce-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="18610" time="0" location="C:\Users\muchmore\.ivy2\cache\io.lettuce\lettuce-core\ivy-5.0.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/lettuce/lettuce-core/5.0.0.RELEASE/lettuce-core-5.0.0.RELEASE.pom"/>
 				<caller organisation="muchmore.digital" name="chatbot_2.12" conf="compile" rev="5.0.0.RELEASE" rev-constraint-default="5.0.0.RELEASE" rev-constraint-dynamic="5.0.0.RELEASE" callerrev="1.0-SNAPSHOT"/>
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-handler">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824122742" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="110">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824122742" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="18081" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-handler\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.15.Final/netty-handler-4.1.15.Final.pom"/>
 				<caller organisation="io.lettuce" name="lettuce-core" conf="default, compile, runtime, master" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="5.0.0.RELEASE"/>
@@ -34,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-codec">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824122431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="111">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824122431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="18037" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-codec\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.15.Final/netty-codec-4.1.15.Final.pom"/>
 				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="4.1.15.Final"/>
@@ -46,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-transport">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824122157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="107">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824122157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="16863" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-transport\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.15.Final/netty-transport-4.1.15.Final.pom"/>
 				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="4.1.15.Final"/>
@@ -60,7 +60,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-resolver">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824121952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="109">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824121952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="16713" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-resolver\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.15.Final/netty-resolver-4.1.15.Final.pom"/>
 				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="4.1.15.Final"/>
@@ -72,7 +72,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-buffer">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824121745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="108">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824121745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="16709" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-buffer\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.15.Final/netty-buffer-4.1.15.Final.pom"/>
 				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="4.1.15.Final"/>
@@ -85,7 +85,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-common">
-			<revision name="4.1.15.Final" status="release" pubdate="20170824121257" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="106">
+			<revision name="4.1.15.Final" status="release" pubdate="20170824121257" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="19107" time="0" location="C:\Users\muchmore\.ivy2\cache\io.netty\netty-common\ivy-4.1.15.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.15.Final/netty-common-4.1.15.Final.pom"/>
 				<caller organisation="io.netty" name="netty-resolver" conf="compile, runtime" rev="4.1.15.Final" rev-constraint-default="4.1.15.Final" rev-constraint-dynamic="4.1.15.Final" callerrev="4.1.15.Final"/>
@@ -99,7 +99,7 @@
 			</revision>
 		</module>
 		<module organisation="io.projectreactor" name="reactor-core">
-			<revision name="3.1.0.RELEASE" status="release" pubdate="20170925065528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/reactor/reactor-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="105">
+			<revision name="3.1.0.RELEASE" status="release" pubdate="20170925065528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/reactor/reactor-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3123" time="0" location="C:\Users\muchmore\.ivy2\cache\io.projectreactor\reactor-core\ivy-3.1.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/projectreactor/reactor-core/3.1.0.RELEASE/reactor-core-3.1.0.RELEASE.pom"/>
 				<caller organisation="io.lettuce" name="lettuce-core" conf="default, compile, runtime, master" rev="3.1.0.RELEASE" rev-constraint-default="3.1.0.RELEASE" rev-constraint-dynamic="3.1.0.RELEASE" callerrev="5.0.0.RELEASE"/>
@@ -110,217 +110,35 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="java-sdk">
-			<revision name="4.0.0" status="release" pubdate="20170921155154" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+		<module organisation="com.ibm.watson.developer_cloud" name="assistant">
+			<revision name="5.5.0" status="release" pubdate="20180518181229" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/assistant/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
 				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="5537" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\java-sdk\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/java-sdk/4.0.0/java-sdk-4.0.0.pom"/>
-				<caller organisation="muchmore.digital" name="chatbot_2.12" conf="compile" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.0-SNAPSHOT"/>
+				<metadata-artifact status="no" details="" size="3476" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\assistant\ivy-5.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/assistant/5.5.0/assistant-5.5.0.pom"/>
+				<caller organisation="muchmore.digital" name="chatbot_2.12" conf="compile" rev="5.5.0" rev-constraint-default="5.5.0" rev-constraint-dynamic="5.5.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="java-sdk" type="jar" ext="jar" status="no" details="" size="261" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\java-sdk\jars\java-sdk-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/java-sdk/4.0.0/java-sdk-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="visual-recognition">
-			<revision name="4.0.0" status="release" pubdate="20170921155311" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/visual-recognition/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="103">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3472" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\visual-recognition\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/visual-recognition/4.0.0/visual-recognition-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="visual-recognition" type="jar" ext="jar" status="no" details="" size="39017" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\visual-recognition\jars\visual-recognition-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/visual-recognition/4.0.0/visual-recognition-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="tradeoff-analytics">
-			<revision name="4.0.0" status="release" pubdate="20170921155303" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developercloud/tradeoff-analytics.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3466" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\tradeoff-analytics\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/tradeoff-analytics/4.0.0/tradeoff-analytics-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="tradeoff-analytics" type="jar" ext="jar" status="no" details="" size="28132" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\tradeoff-analytics\jars\tradeoff-analytics-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/tradeoff-analytics/4.0.0/tradeoff-analytics-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="tone-analyzer">
-			<revision name="4.0.0" status="release" pubdate="20170921155252" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/tone-analyzer/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="101">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3452" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\tone-analyzer\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/tone-analyzer/4.0.0/tone-analyzer-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="tone-analyzer" type="jar" ext="jar" status="no" details="" size="21231" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\tone-analyzer\jars\tone-analyzer-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/tone-analyzer/4.0.0/tone-analyzer-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="text-to-speech">
-			<revision name="4.0.0" status="release" pubdate="20170921155245" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/text-to-speech/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="100">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3456" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\text-to-speech\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/text-to-speech/4.0.0/text-to-speech-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="text-to-speech" type="jar" ext="jar" status="no" details="" size="18047" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\text-to-speech\jars\text-to-speech-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/text-to-speech/4.0.0/text-to-speech-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="speech-to-text">
-			<revision name="4.0.0" status="release" pubdate="20170921155238" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/speech-to-text/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="99">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3456" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\speech-to-text\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/speech-to-text/4.0.0/speech-to-text-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="speech-to-text" type="jar" ext="jar" status="no" details="" size="55771" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\speech-to-text\jars\speech-to-text-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/speech-to-text/4.0.0/speech-to-text-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="retrieve-and-rank">
-			<revision name="4.0.0" status="release" pubdate="20170921155231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developercloud/retrieve-rank.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3603" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\retrieve-and-rank\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/retrieve-and-rank/4.0.0/retrieve-and-rank-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="retrieve-and-rank" type="jar" ext="jar" status="no" details="" size="31631" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\retrieve-and-rank\jars\retrieve-and-rank-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/retrieve-and-rank/4.0.0/retrieve-and-rank-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="personality-insights">
-			<revision name="4.0.0" status="release" pubdate="20170921155224" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/personality-insights/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3480" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\personality-insights\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/personality-insights/4.0.0/personality-insights-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="personality-insights" type="jar" ext="jar" status="no" details="" size="20972" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\personality-insights\jars\personality-insights-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/personality-insights/4.0.0/personality-insights-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="natural-language-understanding">
-			<revision name="4.0.0" status="release" pubdate="20170921155217" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/natural-language-understanding/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3499" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\natural-language-understanding\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/natural-language-understanding/4.0.0/natural-language-understanding-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="natural-language-understanding" type="jar" ext="jar" status="no" details="" size="55607" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\natural-language-understanding\jars\natural-language-understanding-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/natural-language-understanding/4.0.0/natural-language-understanding-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="natural-language-classifier">
-			<revision name="4.0.0" status="release" pubdate="20170921155210" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/natural-language-understanding/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3510" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\natural-language-classifier\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/natural-language-classifier/4.0.0/natural-language-classifier-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="natural-language-classifier" type="jar" ext="jar" status="no" details="" size="8363" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\natural-language-classifier\jars\natural-language-classifier-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/natural-language-classifier/4.0.0/natural-language-classifier-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="language-translator">
-			<revision name="4.0.0" status="release" pubdate="20170921155203" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/language-translator/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3476" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\language-translator\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/language-translator/4.0.0/language-translator-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="language-translator" type="jar" ext="jar" status="no" details="" size="28265" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\language-translator\jars\language-translator-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/language-translator/4.0.0/language-translator-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="document-conversion">
-			<revision name="4.0.0" status="release" pubdate="20170921155147" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/document-conversion/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3476" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\document-conversion\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/document-conversion/4.0.0/document-conversion-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="document-conversion" type="jar" ext="jar" status="no" details="" size="19279" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\document-conversion\jars\document-conversion-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/document-conversion/4.0.0/document-conversion-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="discovery">
-			<revision name="4.0.0" status="release" pubdate="20170921155140" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/discovery/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3436" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\discovery\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/discovery/4.0.0/discovery-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="discovery" type="jar" ext="jar" status="no" details="" size="153604" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\discovery\jars\discovery-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/discovery/4.0.0/discovery-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="conversation">
-			<revision name="4.0.0" status="release" pubdate="20170921155125" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://console.bluemix.net/docs/services/conversation/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3448" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\conversation\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/conversation/4.0.0/conversation-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="conversation" type="jar" ext="jar" status="no" details="" size="208920" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\conversation\jars\conversation-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/conversation/4.0.0/conversation-4.0.0.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.ibm.watson.developer_cloud" name="alchemy">
-			<revision name="4.0.0" status="release" pubdate="20170921155049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developercloud/alchemy-language.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
-				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3431" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\alchemy\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/alchemy/4.0.0/alchemy-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<artifacts>
-					<artifact name="alchemy" type="jar" ext="jar" status="no" details="" size="69227" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\alchemy\jars\alchemy-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/alchemy/4.0.0/alchemy-4.0.0.jar"/>
+					<artifact name="assistant" type="jar" ext="jar" status="no" details="" size="228307" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\assistant\jars\assistant-5.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/assistant/5.5.0/assistant-5.5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.ibm.watson.developer_cloud" name="core">
-			<revision name="4.0.0" status="release" pubdate="20170921155132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developer" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+			<revision name="5.5.0" status="release" pubdate="20180518181519" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.ibm.com/watson/developer" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
 				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3964" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\core\ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/core/4.0.0/core-4.0.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="tradeoff-analytics" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="natural-language-classifier" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="text-to-speech" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="alchemy" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="personality-insights" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="retrieve-and-rank" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="language-translator" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="discovery" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="speech-to-text" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="document-conversion" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="java-sdk" conf="default, compile, runtime, master" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="visual-recognition" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="conversation" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="tone-analyzer" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="natural-language-understanding" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
+				<metadata-artifact status="no" details="" size="4128" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\core\ivy-5.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/core/5.5.0/core-5.5.0.pom"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="assistant" conf="default, compile, runtime, master" rev="5.5.0" rev-constraint-default="5.5.0" rev-constraint-dynamic="5.5.0" callerrev="5.5.0"/>
 				<artifacts>
-					<artifact name="core" type="jar" ext="jar" status="no" details="" size="59219" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\core\jars\core-4.0.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/core/4.0.0/core-4.0.0.jar"/>
+					<artifact name="core" type="jar" ext="jar" status="no" details="" size="71114" time="0" location="C:\Users\muchmore\.ivy2\cache\com.ibm.watson.developer_cloud\core\jars\core-5.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/watson/developer_cloud/core/5.5.0/core-5.5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.glassfish.jersey.bundles.repackaged" name="jersey-jsr166e">
-			<revision name="2.25.1" status="release" pubdate="20170119141934" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+			<revision name="2.25.1" status="release" pubdate="20170119141934" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="35475" time="0" location="C:\Users\muchmore\.ivy2\cache\org.glassfish.jersey.bundles.repackaged\jersey-jsr166e\ivy-2.25.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-jsr166e/2.25.1/jersey-jsr166e-2.25.1.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="2.25.1" rev-constraint-default="2.25.1" rev-constraint-dynamic="2.25.1" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="2.25.1" rev-constraint-default="2.25.1" rev-constraint-dynamic="2.25.1" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="jersey-jsr166e" type="bundle" ext="jar" status="no" details="" size="293219" time="0" location="C:\Users\muchmore\.ivy2\cache\org.glassfish.jersey.bundles.repackaged\jersey-jsr166e\bundles\jersey-jsr166e-2.25.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-jsr166e/2.25.1/jersey-jsr166e-2.25.1.jar"/>
@@ -329,10 +147,10 @@
 			</revision>
 		</module>
 		<module organisation="com.squareup.okhttp3" name="okhttp-urlconnection">
-			<revision name="3.8.0" status="release" pubdate="20170513120337" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+			<revision name="3.8.0" status="release" pubdate="20170513120337" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6359" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\okhttp-urlconnection\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.8.0/okhttp-urlconnection-3.8.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="okhttp-urlconnection" type="jar" ext="jar" status="no" details="" size="32637" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\okhttp-urlconnection\jars\okhttp-urlconnection-3.8.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.8.0/okhttp-urlconnection-3.8.0.jar"/>
@@ -341,10 +159,10 @@
 			</revision>
 		</module>
 		<module organisation="com.squareup.okhttp3" name="logging-interceptor">
-			<revision name="3.8.0" status="release" pubdate="20170513120558" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+			<revision name="3.8.0" status="release" pubdate="20170513120558" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6162" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\logging-interceptor\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="logging-interceptor" type="jar" ext="jar" status="no" details="" size="8266" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\logging-interceptor\jars\logging-interceptor-3.8.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.jar"/>
@@ -353,12 +171,12 @@
 			</revision>
 		</module>
 		<module organisation="com.squareup.okhttp3" name="okhttp">
-			<revision name="3.8.0" status="release" pubdate="20170513120226" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+			<revision name="3.8.0" status="release" pubdate="20170513120226" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6019" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\okhttp\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.pom"/>
 				<caller organisation="com.squareup.okhttp3" name="logging-interceptor" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
 				<caller organisation="com.squareup.okhttp3" name="okhttp-urlconnection" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="okhttp" type="jar" ext="jar" status="no" details="" size="398107" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okhttp3\okhttp\jars\okhttp-3.8.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar"/>
@@ -367,7 +185,7 @@
 			</revision>
 		</module>
 		<module organisation="com.squareup.okio" name="okio">
-			<revision name="1.13.0" status="release" pubdate="20170512132419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+			<revision name="1.13.0" status="release" pubdate="20170512132419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4895" time="0" location="C:\Users\muchmore\.ivy2\cache\com.squareup.okio\okio\ivy-1.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom"/>
 				<caller organisation="com.squareup.okhttp3" name="okhttp" conf="compile, runtime" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="3.8.0"/>
@@ -854,10 +672,10 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.gson" name="gson">
-			<revision name="2.8.0" status="release" pubdate="20161027030242" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+			<revision name="2.8.0" status="release" pubdate="20161027030242" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3505" time="0" location="C:\Users\muchmore\.ivy2\cache\com.google.code.gson\gson\ivy-2.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="231952" time="0" location="C:\Users\muchmore\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.8.0.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
@@ -1028,7 +846,7 @@
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="13392" time="0" location="C:\Users\muchmore\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="3.6" rev-constraint-default="3.6" rev-constraint-dynamic="3.6" callerrev="2.6.13"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="5.5.0"/>
 				<artifacts>
 					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="494856" time="0" location="C:\Users\muchmore\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar"/>
@@ -1037,7 +855,7 @@
 			</revision>
 			<revision name="3.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<evicted-by rev="3.6"/>
-				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="4.0.0"/>
+				<caller organisation="com.ibm.watson.developer_cloud" name="core" conf="compile, runtime" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="5.5.0"/>
 				<artifacts>
 				</artifacts>
 			</revision>

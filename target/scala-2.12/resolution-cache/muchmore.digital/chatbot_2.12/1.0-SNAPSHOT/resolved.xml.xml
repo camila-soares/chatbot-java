@@ -4,7 +4,7 @@
 		module="chatbot_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180603152700"
+		publication="20180607020240"
 	>
 		<description>
 		chatbot
@@ -53,7 +53,7 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.13" conf="compile->default(compile)"/>
 		<dependency org="io.jsonwebtoken" name="jjwt" rev="0.9.0" conf="compile->default(compile)"/>
 		<dependency org="org.springframework.data" name="spring-data-mongodb" rev="2.0.1.RELEASE" conf="compile->default(compile)"/>
-		<dependency org="com.ibm.watson.developer_cloud" name="assistant" rev="5.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.ibm.watson.developer_cloud" name="java-sdk" rev="4.0.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-json_2.12" rev="2.6.7" conf="compile->default(compile)"/>
 		<dependency org="io.lettuce" name="lettuce-core" rev="5.0.0.RELEASE" conf="compile->default(compile)"/>
 	</dependencies>

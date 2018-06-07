@@ -45,17 +45,15 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
         <div class="chat_wrapper" id="chat_wrapper">
             <div class="message_box" id="message_box"></div>
             <div class="panel">
+                <!--form class="chat-window-form" id="form-main"-->
                 <input type="text" name="message" class="message" id="message" placeholder="Message" maxlength="80" style="width:40%" />
-                <button id="send-btn">Send</button>
+                <button  id="send-btn">Send</button>
+                <!--/form-->
             </div>
         </div>
-        """),_display_(/*20.10*/helper/*20.16*/.javascriptRouter("jsRoutes")/*20.45*/(routes.javascript.BotController.socket)),format.raw/*20.85*/("""
-        """),format.raw/*21.9*/("""<script type="text/javascript">
-
-        </script>
-
-        <script type='text/javascript' src='"""),_display_(/*25.46*/routes/*25.52*/.Assets.versioned("javascripts/components.js")),format.raw/*25.98*/("""'></script>
-        <script type='text/javascript' src='"""),_display_(/*26.46*/routes/*26.52*/.Assets.versioned("javascripts/app.js")),format.raw/*26.91*/("""'></script>
+        """),_display_(/*22.10*/helper/*22.16*/.javascriptRouter("jsRoutes")/*22.45*/(routes.javascript.BotController.socket)),format.raw/*22.85*/("""
+        """),format.raw/*23.9*/("""<script type='text/javascript' src='"""),_display_(/*23.46*/routes/*23.52*/.Assets.versioned("javascripts/components.js")),format.raw/*23.98*/("""'></script>
+        <script type='text/javascript' src='"""),_display_(/*24.46*/routes/*24.52*/.Assets.versioned("javascripts/app.js")),format.raw/*24.91*/("""'></script>
 
     </body>
 </html>"""))
@@ -74,11 +72,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Thu May 31 11:15:03 BRT 2018
+                  DATE: Wed Jun 06 23:25:34 BRT 2018
                   SOURCE: C:/Users/muchmore/chatbot-java/app/views/chat.scala.html
-                  HASH: 7e835fa9335f265b2e86b727cc51c99896e192c5
-                  MATRIX: 1029->0|1269->214|1283->220|1345->261|1437->327|1451->333|1511->372|2197->1031|2212->1037|2250->1066|2311->1106|2348->1116|2476->1217|2491->1223|2558->1269|2643->1327|2658->1333|2718->1372
-                  LINES: 33->1|38->6|38->6|38->6|39->7|39->7|39->7|52->20|52->20|52->20|52->20|53->21|57->25|57->25|57->25|58->26|58->26|58->26
+                  HASH: d0e4cb13e3d97c8190d0ab29c7917ba19efb09c9
+                  MATRIX: 1029->0|1269->214|1283->220|1345->261|1437->327|1451->333|1511->372|2297->1131|2312->1137|2350->1166|2411->1206|2448->1216|2512->1253|2527->1259|2594->1305|2679->1363|2694->1369|2754->1408
+                  LINES: 33->1|38->6|38->6|38->6|39->7|39->7|39->7|54->22|54->22|54->22|54->22|55->23|55->23|55->23|55->23|56->24|56->24|56->24
                   -- GENERATED --
               */
           

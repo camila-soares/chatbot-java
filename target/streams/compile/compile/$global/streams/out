@@ -1,18 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:7:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
-[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.Context;[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:8:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
-[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:9:1: package com.ibm.watson.developer_cloud.conversation.v1.model does not exist[0m
-[0m[[0m[31merror[0m] [0m[0mimport com.ibm.watson.developer_cloud.conversation.v1.model.OutputData;[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:47:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   class MessageResponse[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
-[0m[[0m[31merror[0m] [0m[0m        MessageResponse response = context.getWatsonResponse();[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:48:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   class Context[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
-[0m[[0m[31merror[0m] [0m[0m        Context watsonContext = context.getContext ();[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\handler\MessageHandler.java:52:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   class OutputData[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.handler.MessageHandler[0m
-[0m[[0m[31merror[0m] [0m[0m        OutputData outputData = response.getOutput ();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\WatsonService.java:57:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable entities[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.WatsonService[0m
+[0m[[0m[31merror[0m] [0m[0m        if (entities != null) messageBuilder.entities ( entities );[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\WatsonService.java:57:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable entities[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class services.WatsonService[0m
+[0m[[0m[31merror[0m] [0m[0m        if (entities != null) messageBuilder.entities ( entities );[0m

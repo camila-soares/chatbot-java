@@ -2,33 +2,27 @@ package models.chatsdk;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
-
-import java.util.ArrayList;
-import java.util.List;
+import modules.UserContext;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Message {
+
     public enum Action {
         TEXT,
-        POSTBACK,
-        HELLO,
-        PING,
-        PONG
+
     }
 
     @JsonIgnore
     private String userId;
     private Action action;
-    private Payload payload;
-    private List<Bubble> bubbles;
+   private String text;
 
     public Message() {
     }
 
     public Message(String text) {
         this.action = Action.TEXT;
-        this.payload = new Payload();
-        this.payload.setText(text);
+        this.text = text;
     }
 
     public String getUserId() {
@@ -47,25 +41,13 @@ public class Message {
         this.action = action;
     }
 
-    public Payload getPayload() {
-        return payload;
+    public String getText() {
+        return text;
     }
 
-    public void setPayload(Payload payload) {
-        this.payload = payload;
+    public void setText(String text) {
+        this.text = text;
     }
 
-    public List<Bubble> getBubbles() {
-        return bubbles;
-    }
 
-    public void setBubbles(List<Bubble> bubbles) {
-        this.bubbles = bubbles;
-    }
-
-    public void addBubble(Bubble bubble) {
-        if (this.bubbles == null)
-            this.bubbles = new ArrayList<>();
-        this.bubbles.add(bubble);
-    }
 }

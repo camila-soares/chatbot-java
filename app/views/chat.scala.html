@@ -14,7 +14,7 @@
             <div class="message_box" id="message_box"></div>
             <div class="panel">
                 <input type="text" name="message" class="message" id="message" placeholder="Message" maxlength="80" style="width:40%" />
-                <button id="send-btn">Send</button>
+                <button id="send-btn" onsubmit="addMessage();">Send</button>
             </div>
         </div>
         @helper.javascriptRouter("jsRoutes")(routes.javascript.BotController.socket)

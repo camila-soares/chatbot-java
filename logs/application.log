@@ -1169,3 +1169,10 @@ java.lang.IllegalArgumentException: text cannot be null
     play.filters.hosts.AllowedHostsFilter
 
 2018-06-08 01:51:33,959 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-636 - Application started (Dev)
+2018-06-08 02:32:20,582 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-743 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-06-08 02:32:20,585 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-743 - Application started (Dev)

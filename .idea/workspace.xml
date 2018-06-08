@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b0f271-77ff-4023-b77e-f5cbb5510bca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/javascripts/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/chatsdk/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/chatsdk/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modules/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/modules/UserContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/WatsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/WatsonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/handler/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/handler/WebsocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/handler/WebsocketHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/chat.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chat.scala.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/chatsdk/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/chatsdk/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/modules/UserContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/modules/UserContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/services/WatsonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/handler/MessageHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/services/handler/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/services/handler/MessageHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/chat$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/chat$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/chat.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/chat.template.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot/1.0-SNAPSHOT/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/chatbot/1.0-SNAPSHOT/javascripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/public/main/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/public/main/javascripts/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,10 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WatsonService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WatsonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/WatsonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
+            <state relative-caret-position="362">
               <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,8 +69,8 @@
       <file leaf-file-name="MessageHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/handler/MessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="379">
+              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,17 +108,8 @@
       <file leaf-file-name="Mailbox.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/Mailbox.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="277" column="36" lean-forward="true" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForkJoinPool.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="1979" selection-start-line="1979" selection-end-line="1979" />
+            <state relative-caret-position="-176">
+              <caret line="273" column="8" selection-start-line="273" selection-start-column="8" selection-end-line="273" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -155,14 +123,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="106" column="6" lean-forward="true" selection-start-line="101" selection-start-column="4" selection-end-line="106" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.scala.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/chat.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -600,12 +577,12 @@
       <workItem from="1527772988352" duration="632000" />
       <workItem from="1527774341141" duration="19130000" />
       <workItem from="1528026878800" duration="31124000" />
-      <workItem from="1528212796471" duration="72760000" />
+      <workItem from="1528212796471" duration="74120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123947000" />
+    <option name="totallyTimeSpent" value="125307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -624,7 +601,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37194473" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37194473" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
@@ -634,7 +611,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49761525" visible="true" weight="0.12291667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761525" visible="true" weight="0.12291667" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="13" weight="0.3290938" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2646121" />
@@ -1053,16 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/chat.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/forkjoin/ForkJoinTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1084,23 +1051,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/handler/MessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/app/services/WatsonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/services/handler/MessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="106" column="6" lean-forward="true" selection-start-line="101" selection-start-column="4" selection-end-line="106" selection-end-column="6" />
+        <state relative-caret-position="379">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chat.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1137,17 +1111,17 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.11-sources.jar!/akka/dispatch/Mailbox.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="277" column="36" lean-forward="true" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="36" />
+        <state relative-caret-position="-176">
+          <caret line="273" column="8" selection-start-line="273" selection-start-column="8" selection-end-line="273" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/WatsonService.java">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        <state relative-caret-position="238">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,17 +21,13 @@ $(document).ready(function () {
 
         $('#send-btn').click(function () {
         var mymessage = $('#message').val();
-       // var myname = $('#name').val();
-        //var toname = $('#toname').val();
 
-       /* if (myname === "") {
-            alert("Entre com algum nomde");
-            return;
-        }*/
-        if (mymessage === "") {
+        /*if (mymessage === "") {
             alert("Entre com alguma mensagem");
             return;
-        } else if(mymessage != ""){
+        } */
+
+        if(mymessage != ""){
                 $('#message_box').append("<div><span class=\"user_message\">" + mymessage + "</span></div>");
             }
 
@@ -44,6 +40,7 @@ $(document).ready(function () {
 
 
         websocket.send(JSON.stringify(msg));
+        body.dispatchEvent(msg);
     });
 
     const Message = {
@@ -94,6 +91,12 @@ $(document).ready(function () {
 
         $('#message').val('');
     };
+
+    function addMessage() {
+        var message = message.value;
+        message.value = "";
+        websocket.send(message);
+    }
 
     websocket.onerror = function (ev) {
         $('#message_box').append("<div class=\"system_error\">Um erro ocorreu - " + ev.data + "</div>");

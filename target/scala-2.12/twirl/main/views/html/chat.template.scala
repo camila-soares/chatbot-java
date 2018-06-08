@@ -46,7 +46,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
             <div class="message_box" id="message_box"></div>
             <div class="panel">
                 <input type="text" name="message" class="message" id="message" placeholder="Message" maxlength="80" style="width:40%" />
-                <button id="send-btn">Send</button>
+                <button id="send-btn" onsubmit="addMessage();">Send</button>
             </div>
         </div>
         """),_display_(/*20.10*/helper/*20.16*/.javascriptRouter("jsRoutes")/*20.45*/(routes.javascript.BotController.socket)),format.raw/*20.85*/("""
@@ -75,10 +75,10 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 08 01:51:29 BRT 2018
+                  DATE: Fri Jun 08 02:32:07 BRT 2018
                   SOURCE: C:/Users/muchmore/chatbot-java/app/views/chat.scala.html
-                  HASH: 799e3ea4546e53bce5cf0cd0f77039d924d7512b
-                  MATRIX: 1029->0|1269->214|1283->220|1345->261|1437->327|1451->333|1511->372|2197->1031|2212->1037|2250->1066|2311->1106|2348->1116|2476->1217|2491->1223|2558->1269|2643->1327|2658->1333|2718->1372
+                  HASH: 460aa812e5ba204f1099b62fe409588b71fdba1c
+                  MATRIX: 1029->0|1269->214|1283->220|1345->261|1437->327|1451->333|1511->372|2222->1056|2237->1062|2275->1091|2336->1131|2373->1141|2501->1242|2516->1248|2583->1294|2668->1352|2683->1358|2743->1397
                   LINES: 33->1|38->6|38->6|38->6|39->7|39->7|39->7|52->20|52->20|52->20|52->20|53->21|57->25|57->25|57->25|58->26|58->26|58->26
                   -- GENERATED --
               */

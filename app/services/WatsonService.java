@@ -27,8 +27,10 @@ public class WatsonService {
     private final String workspaceId;
     private ActorRef handlerActor;
 
+
     @Inject
     public WatsonService(Conversation conversation,
+                         UserContext userContext,
                          Config config,
                          @Named("message-handler") ActorRef handlerActor) {
         this.conversation = conversation;
@@ -37,13 +39,13 @@ public class WatsonService {
     }
 
     public void sendMessageToWatson(String inputText ,
-                                    UserContext usercontext ,
+                                    UserContext userContext ,
                                     List <RuntimeIntent> intents ,
-                                    List<RuntimeEntity> entities,
+                                    List <RuntimeEntity> entities ,
                                     boolean alternateIntents , ActorRef sender) {
 
-        //if (usercontext == null)
-        //    throw new IllegalArgumentException ();
+        if (userContext == null)
+            throw new IllegalArgumentException ();
 
 
         MessageOptions.Builder messageBuilder = new MessageOptions.Builder ();
@@ -52,15 +54,15 @@ public class WatsonService {
         InputData.Builder inputBuilder = new InputData.Builder ();
         inputBuilder.text ( inputText );
 
-        messageBuilder.input ( inputBuilder.build () );
-        messageBuilder.alternateIntents ( alternateIntents );
+        messageBuilder.input(inputBuilder.build());
+        messageBuilder.alternateIntents(alternateIntents);
 
 
-        if (usercontext.getContext() != null) messageBuilder.context(usercontext.getContext());
+        if (userContext.getContext() != null) messageBuilder.context(userContext.getContext());
         if (intents != null && !intents.isEmpty ()) messageBuilder.intents ( intents );
         if (entities != null) messageBuilder.entities ( entities );
 
-        sendMessage ( usercontext , sender , messageBuilder );
+        sendMessage ( userContext , sender , messageBuilder );
 
     }
 
@@ -68,11 +70,11 @@ public class WatsonService {
        MessageResponse response = userContext.getWatsonResponse ();
         MessageOptions.Builder messageBuilder = new MessageOptions.Builder ();
         messageBuilder.workspaceId ( workspaceId )
-                      .input ( new InputData.Builder ().text ( response.getInput ().getText () ).build () )
-                      .intents ( response.getIntents () )
-                      .entities ( response.getEntities () )
-                      .context ( userContext.getContext () );
-        sendMessage ( userContext , sender , messageBuilder );
+                      .input( new InputData.Builder ().text ( response.getInput ().getText () ).build () )
+                      .intents(response.getIntents())
+                      .entities(response.getEntities())
+                      .context(userContext.getContext());
+        sendMessage (userContext , sender , messageBuilder);
     }
 
 

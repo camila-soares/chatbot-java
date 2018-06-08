@@ -3,8 +3,20 @@ $(document).ready(function () {
 
     websocket = new WebSocket(wsUri);
 
+    function ping() {
+        //websocket.send('__ping__');
+        tm = setTimeout(function () {
+
+        }, 5000);
+    }
+
+    function pong(){
+        clearTimeout(tm);
+    }
+
     websocket.onopen = function (ev) {
-        $('#message_box').append("<div class=\"system_msg\">Conectado Com:</div>" + websocket.url);
+        $('#message_box').append("<div class=\"system_msg\">Conectado Com:</div>");
+        setTimeout(ping(), 3000);
     };
 
         $('#send-btn').click(function () {
@@ -29,6 +41,7 @@ $(document).ready(function () {
             //toname: toname,
             //color: ''
         };
+
 
         websocket.send(JSON.stringify(msg));
     });
@@ -59,13 +72,6 @@ $(document).ready(function () {
         }
     };
 
-    /*form.addEventListener('submit', ev => {
-        ev.preventDefault();
-        let message = Message.createText(input.value);
-        sendMessage(message);
-        buildMessage(message, 'local');
-        input.value = '';
-    });*/
 
 
     websocket.onmessage = function (ev) {
@@ -76,13 +82,14 @@ $(document).ready(function () {
     data.push({'message': umsg});
     var dados_user = JSON.stringify(data)
         var parser = JSON.parse(dados_user);
+    pong();
 
 
        console.log(type);
         if (type === 'usermsg') {
             $('#message_box').append("<div><span class=\"user_name\" style=\"color:" + ucolor + "\">" + uname + "</span> : <span class=\"user_message\">" + umsg + "</span></div>");
         } else if (type === 'system') {
-            $('#message_box').append("<div class=\"system_msg\">" + umsg + "</div>");
+            $('#message_box').append("<div class=\"system_msg\">" + data + "</div>");
         }
 
         $('#message').val('');
@@ -91,12 +98,13 @@ $(document).ready(function () {
     websocket.onerror = function (ev) {
         $('#message_box').append("<div class=\"system_error\">Um erro ocorreu - " + ev.data + "</div>");
     };
-    /*websocket.onclose = function (ev) {
+
+    websocket.onclose = function (ev) {
         $('#message_box').append("<div class=\"system_msg\">Conexão finalizada</div>");
         setTimeout(setupWebSocket, 1000);
 
 
-    };*/
+    };
 
 
 

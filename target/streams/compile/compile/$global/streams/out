@@ -1,8 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\WatsonService.java:57:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable entities[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\WatsonService.java:54:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable alternateIntents[0m
 [0m[[0m[31merror[0m] [0m[0m  location: class services.WatsonService[0m
-[0m[[0m[31merror[0m] [0m[0m        if (entities != null) messageBuilder.entities ( entities );[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\muchmore\chatbot-java\app\services\WatsonService.java:57:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable entities[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class services.WatsonService[0m
-[0m[[0m[31merror[0m] [0m[0m        if (entities != null) messageBuilder.entities ( entities );[0m
+[0m[[0m[31merror[0m] [0m[0m        messageBuilder.alternateIntents(alternateIntents);[0m

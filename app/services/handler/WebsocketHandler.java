@@ -32,7 +32,7 @@ public class WebsocketHandler extends UntypedAbstractActor {
 
     public void onReceive(Object obj) throws Exception {
         if (obj instanceof JsonNode) {
-            String msg = (( JsonNode ) obj).path ( "message" ).textValue ();
+            String msg = ((JsonNode)obj).path( "message" ).textValue ();
             Message message = new Message ( msg );
             messageHandler.tell ( message , getSelf () );
         }

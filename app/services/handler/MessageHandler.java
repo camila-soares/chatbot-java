@@ -7,7 +7,6 @@ import akka.actor.UntypedAbstractActor;
 import com.ibm.watson.developer_cloud.conversation.v1.model.Context;
 import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
 import com.ibm.watson.developer_cloud.conversation.v1.model.OutputData;
-import com.typesafe.config.Config;
 
 import models.chatsdk.Message;
 import models.chatsdk.Payload;
@@ -28,7 +27,7 @@ public class MessageHandler extends UntypedAbstractActor {
 
 
     @Inject
-    public MessageHandler(WatsonService watsonService , Config config , CacheApi cacheApi) {
+    public MessageHandler(WatsonService watsonService , CacheApi cacheApi) {
         this.watsonService = watsonService;
         this.cacheApi = cacheApi;
     }
@@ -39,7 +38,7 @@ public class MessageHandler extends UntypedAbstractActor {
             if(message instanceof UserContext){
                 handleWatsonResponse ((UserContext) message );
             }else if (message instanceof Message){
-                handlerUserMessage ( (Message) message);
+                handlerUserMessage((Message) message);
 
             }
     }
@@ -55,10 +54,9 @@ public class MessageHandler extends UntypedAbstractActor {
         List<String> msg = outputData.getText ();
         msg.forEach ( text -> {
             Message message = new Message (  );
-            Payload payload = new Payload ();
 
             message.setAction(Message.Action.TEXT);
-            payload.setText ( text );
+            message.setText ( text );
             sendMessageToUser ( getSender (), context, null, message );
         } );
 
@@ -74,22 +72,20 @@ public class MessageHandler extends UntypedAbstractActor {
     private void noCommandHandler(UserContext context , String text) {
         Message message = new Message (  );
         message.setAction(Message.Action.TEXT);
-
         Payload payload = new Payload ();
         payload.setText ( text );
-
         sendMessageToUser(sender(), context, text, message);
     }
 
 
     private void handlerUserMessage(Message message) {
-        if (message != null) {
-            switch (message.getAction()) {
-                case TEXT:
-                default:
-                    watsonService.sendMessageToWatson(message.getText(), null, null, null, false, getSender());
+        UserContext context = new UserContext ();
+        context.setText ( message.getText () );
+        if (context != null) {
+            message.setAction ( Message.Action.TEXT );
+                    watsonService.sendMessageToWatson(message.getText(), context, null, null, false, getSender());
             }
-        } else
-            watsonService.sendHi(null, getSender());
+         else
+            watsonService.sendHi( context, getSender());
     }
 }

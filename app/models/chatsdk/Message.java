@@ -13,7 +13,6 @@ public class Message {
     }
 
     @JsonIgnore
-    private String userId;
     private Action action;
    private String text;
 
@@ -23,14 +22,6 @@ public class Message {
     public Message(String text) {
         this.action = Action.TEXT;
         this.text = text;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
     }
 
     public Action getAction() {

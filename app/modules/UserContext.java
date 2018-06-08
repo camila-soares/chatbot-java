@@ -8,11 +8,16 @@ import java.io.Serializable;
 public class UserContext implements Serializable {
 
 
+    private  String text;
     private Context context;
     private transient MessageResponse watsonResponse;
 
     public UserContext() {
     }
+
+    public String getText() { return text; }
+
+    public void setText(String text) { this.text = text; }
 
     public Context getContext() {
         return context;
@@ -25,6 +30,7 @@ public class UserContext implements Serializable {
     public MessageResponse getWatsonResponse() {
         return watsonResponse;
     }
+
 
     public void setWatsonResponse(MessageResponse watsonResponse) {
         this.watsonResponse = watsonResponse;

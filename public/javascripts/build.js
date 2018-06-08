@@ -1,115 +1,55 @@
-var SOCKET_CONNECTING = 0;
-var SOCKET_OPEN = 1;
-var SOCKET_CLOSING = 2;
-var SOCKET_CLOSED = 3;
-var require;
 
-var WebSocketServer = new require.constructor('ws').Server
-wss = new WebSocketServer({ port: 9000 });
+$("#mensagem").submit(function(){
+    event.preventDefault();
+    if($("#mensagem #texto").val() === ""){
 
-//Broadcast method to send message to all the users
-wss.broadcast = function broadcast(data,sentBy)
-{
-    for (var i in this.clients)
-    {
-        if(this.clients[i] != sentBy)
-        {
-            this.clients[i].send(data);
-        }
-    }
-};
+        $("#chat").append("<div class=\"texto usuario\">...</div>");
 
-//Send message to all the users
-wss.broadcast = function broadcast(data,sentBy)
-{
-    for (var i in this.clients)
-    {
-        this.clients[i].send(data);
-    }
-};
+        var data = $("#mensagem").serialize();
+        data.__RequestVerificationToken = $('input[name=__RequestVerificationToken]').val();
 
-var userList = [];
-var keepAlive = null;
-var keepAliveInterval = 5000; //5 seconds
+        $(".mensagens").animate({scrollTop: $("#chat").height()});
+        setTimeout(function(){
 
-//JSON string parser
-function isJson(str)
-{
-    try {
-        JSON.parse(str);
-    }
-    catch (e) {
+            $("#chat").append("<div class=\"texto chatbot\">Você precisa digitar alguma coisa para prosseguir.</div>");
+
+            $(".mensagens").animate({scrollTop: $("#chat").height()});
+        },1000);
         return false;
     }
-    return true;
-}
 
-//WebSocket connection open handler
-wss.on('connection', function connection(ws) {
 
-    function ping(client) {
-        if (ws.readyState === SOCKET_OPEN) {
-            ws.send('__ping__');
-        } else {
-            console.log('Server - connection has been closed for client ' + client);
-            removeUser(client);
-        }
-    }
+    $.ajax({
+        header:{"Content-Type": "application/json"},
+        url: "https://gateway.watsonplatform.net/conversation/api/v1/workspaces/42893f0a-6c0e-4b66-8e30-525058a4322e",
+        type: 'GET',
+        data: data,
+        dataType: 'jsonp',
+        beforeSend: function(){
 
-    function removeUser(client) {
+            $("#chat").append("<div class=\"texto usuario\">" + $("#mensagem #texto").val() + "</div>");
+        },
+        success: function(resposta){
 
-        console.log('Server - removing user: ' + client)
+            $("#mensagem #texto").val("");
+            $("#mensagem #texto").focus();
 
-        var found = false;
-        for (var i = 0; i < userList.length; i++) {
-            if (userList[i].name === client) {
-                userList.splice(i, 1);
-                found = true;
-            }
-        }
 
-        //send out the updated users list
-        if (found) {
-            wss.broadcast(JSON.stringify({userList: userList}));
-        };
-
-        return found;
-    }
-
-    function pong(client) {
-        console.log('Server - ' + client + ' is still active');
-        clearTimeout(keepAlive);
-        setTimeout(function () {
-            ping(client);
-        }, keepAliveInterval);
-    }
-
-    //WebSocket message receive handler
-    ws.on('message', function incoming(message) {
-        if (isJson(message)) {
-            var obj = JSON.parse(message);
-
-            //client is responding to keepAlive
-            if (obj.keepAlive !== undefined) {
-                pong(obj.keepAlive.toLowerCase());
+            if(resposta.error){
+                $("#chat").append("<div class=\"texto chatbot\">" + resposta.error + "</div>");
+                return false;
             }
 
-            if (obj.action === 'join') {
-                console.log('Server - joining', obj);
 
-                //start pinging to keep alive
-                ping(obj.name.toLocaleLowerCase());
-
-                if (userList.filter(function(e) { return e.name == obj.name.toLowerCase(); }).length <= 0) {
-                    userList.push({name: obj.name.toLowerCase()});
-                }
-
-                wss.broadcast(JSON.stringify({userList: userList}));
-                console.log('Server - broadcasting user list', userList);
-            }
+            var mensagemChatbot  = "<div class=\"texto chatbot\">";
+            mensagemChatbot		+= resposta.output.text[0];
+            mensagemChatbot		+= "</div>";
+            setTimeout(function(){
+                $("#chat").append(mensagemChatbot);
+                $(".mensagens").animate({scrollTop: $("#chat").height()});
+            },1000);
         }
-
-        console.log('Server - received: %s', message.toString());
-        return false;
     });
+
+    return false;
 });

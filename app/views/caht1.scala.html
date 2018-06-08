@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/style.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <title>ChatBot</title>
+    </head>
+    <body>
+        <div id="watson" class="watson">
+            <div class="mensagens">
+                <div class="area" id="chat">
+		</div>
+            </div>
+            <form id="mensagem" class="mensagem">
+                <input type="text" id="texto" name="texto" placeholder="Digite sua mensagem"/>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        @helper.javascriptRouter("jsRoutes")(routes.javascript.BotController.socket)
+        <script type="text/javascript">
+
+        </script>
+
+        <script type='text/javascript' src='@routes.Assets.versioned("javascripts/components.js")'></script>
+        <script type='text/javascript' src='@routes.Assets.versioned("javascripts/build.js")'></script>
+
+
+    </body>
+</html>

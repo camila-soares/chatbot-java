@@ -15,21 +15,18 @@ $(document).ready(function () {
     }
 
     websocket.onopen = function (ev) {
-        $('#message_box').append("<div class=\"system_msg\">Conectado Com:</div>");
+        $('#message_box').append("<div class=\"system_msg\">Conectado!</div>");
         setTimeout(ping(), 3000);
     };
 
         $('#send-btn').click(function () {
         var mymessage = $('#message').val();
 
-        /*if (mymessage === "") {
-            alert("Entre com alguma mensagem");
-            return;
-        } */
 
         if(mymessage != ""){
                 $('#message_box').append("<div><span class=\"user_message\">" + mymessage + "</span></div>");
             }
+
 
             var msg = {
             message: mymessage,
@@ -40,7 +37,8 @@ $(document).ready(function () {
 
 
         websocket.send(JSON.stringify(msg));
-        body.dispatchEvent(msg);
+
+            $('#message_box').append("<div class=\"system_msg\">"+JSON.stringify(msg)+ "</div>");
     });
 
     const Message = {

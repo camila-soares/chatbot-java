@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/muchmore/chatbot-java/conf/routes
-// @DATE:Sun Jun 03 09:19:27 BRT 2018
+// @DATE:Fri Jun 08 03:36:34 BRT 2018
 
 
 package router {

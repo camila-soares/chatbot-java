@@ -1,6 +1,11 @@
-$(document).ready(function () {
-    var wsUri = jsRoutes.controllers.BotController.socket().absoluteURL().replace(/^http/i, 'ws');
 
+window.onload = function () {
+
+    var message_mmm = document.getElementById('message');
+    var listaMessagem = document.getElementById('message_box');
+
+
+    var wsUri = jsRoutes.controllers.BotController.socket().absoluteURL().replace(/^http/i, 'ws');
     websocket = new WebSocket(wsUri);
 
     function ping() {
@@ -29,72 +34,44 @@ $(document).ready(function () {
 
 
             var msg = {
-            message: mymessage,
-            //name: myname,
-            //toname: toname,
-            //color: ''
+            message: mymessage
         };
+            websocket.send(JSON.stringify(msg));
+            websocket.onmessage = function (ev) {
+                var msg = JSON.stringify(ev.data);
+                message_mmm = ev.data;
+                listaMessagem.innerHTML += $('#message_box').append("<div class=\"system_msg\">" + msg.value + "</div>");;
+                var type = msg.type;
+                var umsg = msg.message;
+                var data = [];
+                data.push({'message': umsg});
+                var dados_user = JSON.stringify(data)
+                var parser = JSON.parse(dados_user);
+                pong();
 
 
-        websocket.send(JSON.stringify(msg));
+                console.log(type);
+                if (type === 'usermsg') {
+                    $('#message_box').append("<div><span class=\"user_name\" style=\"color:" + ucolor + "\">" + uname + "</span> : <span class=\"user_message\">" + umsg + "</span></div>");
+                } else if (type === 'system') {
+                    $('#message_box').append("<div class=\"system_msg\">" + parser + "</div>");
+                }
+                $('#message').val('');
+            };
 
-            $('#message_box').append("<div class=\"system_msg\">"+JSON.stringify(msg)+ "</div>");
+
     });
 
     const Message = {
         Action: {
-            HELLO: "HELLO",
-            TEXT: "TEXT",
-            PONG: "PONG",
-            IMAGE: "IMAGE",
-            BUBBLE: "BUBBLE",
-            CAROUSEL: "CAROUSEL",
-            POSTBACK: "POSTBACK",
-            QUICKREPLY: "QUICKREPLY",
-            MENU: "MENU"
+            TEXT: "TEXT"
         },
         createText: function (text) {
-            return {"action": Message.Action.TEXT, "payload": {"text": text}};
+            //return $('#message_box').append("<div class=\"system_msg\">" + text + "</div>");
         },
-        createHello: function () {
-            return {"action": Message.Action.HELLO};
-        },
-        createPostback: function (label, payload) {
-            return {
-                "action": Message.Action.POSTBACK,
-                "payload": {"text": label, "postback": payload}
-            };
-        }
     };
 
 
-
-    websocket.onmessage = function (ev) {
-        var msg = JSON.parse(ev.data);
-        var type = msg.type;
-        var umsg = msg.message;
-        var data = [];
-    data.push({'message': umsg});
-    var dados_user = JSON.stringify(data)
-        var parser = JSON.parse(dados_user);
-    pong();
-
-
-       console.log(type);
-        if (type === 'usermsg') {
-            $('#message_box').append("<div><span class=\"user_name\" style=\"color:" + ucolor + "\">" + uname + "</span> : <span class=\"user_message\">" + umsg + "</span></div>");
-        } else if (type === 'system') {
-            $('#message_box').append("<div class=\"system_msg\">" + data + "</div>");
-        }
-
-        $('#message').val('');
-    };
-
-    function addMessage() {
-        var message = message.value;
-        message.value = "";
-        websocket.send(message);
-    }
 
     websocket.onerror = function (ev) {
         $('#message_box').append("<div class=\"system_error\">Um erro ocorreu - " + ev.data + "</div>");
@@ -109,4 +86,6 @@ $(document).ready(function () {
 
 
 
-});
+
+
+};
